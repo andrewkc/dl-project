@@ -15,7 +15,7 @@ source /opt/ros/humble/setup.bash
 ```
 ## 2. Compilar paquete
 ```
-cd ~/r2_ws
+cd ~/dl-project/r2_ws
 colcon build
 ```
 ## 3. Bring up basic packages
@@ -25,13 +25,13 @@ ros2 launch turtlebot3_bringup robot.launch.py
 ```
 ## 4. Correr el nodo
 ```
-source ~/r2_ws/install/setup.bash
+source ~/dl-project/r2_ws/r2_ws/install/setup.bash
 ros2 run obstacle_avoidance obstacle_avoidance
-
 ```
 ## 5. Kill node
 ```
 # Ctrl + C
-ros2 lifecycle set /turtlebot3_obstacle shutdown
+# ros2 lifecycle set /turtlebot3_obstacle shutdown
+# apagarlo
 ```
 

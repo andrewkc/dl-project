@@ -37,8 +37,8 @@ class Turtlebot3Obstacle(Node):
 
         if msg.ranges[0] < 0.425:
             # Retroceder
-            self.move.linear.x = -2.0   
-            #self.move.linear.x = -1.0   
+            #self.move.linear.x = -2.0   
+            self.move.linear.x = -1.0   
             #self.move.linear.x = -0.22 
             #self.move.linear.x = -0.10
             #self.move.linear.x = -0.05
@@ -67,8 +67,8 @@ class Turtlebot3Obstacle(Node):
                 self.get_logger().info(" -> left")
 
             # Avanzar para evitar el obstáculo
-            self.move.linear.x = 2.0
-            #self.move.linear.x = 1.0
+            #self.move.linear.x = 2.0
+            self.move.linear.x = 1.0
             #self.move.linear.x = 0.22
             #self.move.linear.x = 0.10
             #self.move.linear.x = 0.05
@@ -79,8 +79,8 @@ class Turtlebot3Obstacle(Node):
                 self.get_clock().sleep_for(rclpy.time.Duration(seconds=0.1))
                 self.pub.publish(self.move)
         else:
-            self.move.linear.x = 2.0
-            #self.move.linear.x = 1.0
+            #self.move.linear.x = 2.0
+            self.move.linear.x = 1.0
             #self.move.linear.x = 0.22
             #self.move.linear.x = 0.10
             #self.move.linear.x = 0.05

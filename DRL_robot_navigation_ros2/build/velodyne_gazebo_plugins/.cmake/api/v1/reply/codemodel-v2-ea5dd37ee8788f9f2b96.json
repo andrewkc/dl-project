@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-acbf7f13567477818141.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "velodyne_gazebo_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_velodyne_laser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_velodyne_laser-8a9b5d46ee5d19df10a5.json",
+					"name" : "gazebo_ros_velodyne_laser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a6925d961ae475760b07.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velodyne_gazebo_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velodyne_gazebo_plugins_uninstall-5c3e682321cc2b7b4ea9.json",
+					"name" : "velodyne_gazebo_plugins_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins",
+		"source" : "/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

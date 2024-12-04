@@ -19,13 +19,13 @@ cd ~/dl-project/r2_ws
 colcon build
 ```
 ## 3. Bring up basic packages
-```
-export TURTLEBOT3_MODEL=burger
-ros2 launch turtlebot3_bringup robot.launch.py
+```RTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_bringup r
+export TUobot.launch.py
 ```
 ## 4. Correr el nodo
 ```
-source ~/dl-project/r2_ws/r2_ws/install/setup.bash
+source ~/dl-project/r2_ws/install/setup.bash
 ros2 run obstacle_avoidance obstacle_avoidance
 ```
 ## 5. Kill node

@@ -1,0 +1,205 @@
+[0.029s] Invoking command in '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/td3 -DCMAKE_INSTALL_PREFIX=/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3
+[0.865s] -- The C compiler identification is GNU 11.4.0
+[1.609s] -- The CXX compiler identification is GNU 11.4.0
+[1.632s] -- Detecting C compiler ABI info
+[1.845s] -- Detecting C compiler ABI info - done
+[1.857s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.857s] -- Detecting C compile features
+[1.867s] -- Detecting C compile features - done
+[1.872s] -- Detecting CXX compiler ABI info
+[2.117s] -- Detecting CXX compiler ABI info - done
+[2.133s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.133s] -- Detecting CXX compile features
+[2.134s] -- Detecting CXX compile features - done
+[2.434s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.758s] -- Found Python3: /home/andrewkc/miniconda3/bin/python3 (found version "3.12.5") found components: Interpreter 
+[5.138s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.513s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.597s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.601s] -- Added test 'lint_cmake' to check CMake code style
+[6.604s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.623s] -- Added test 'xmllint' to check XML markup files
+[6.625s] -- Configuring done
+[6.630s] -- Generating done
+[6.633s] -- Build files have been written to: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3
+[6.640s] Invoked command in '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/td3 -DCMAKE_INSTALL_PREFIX=/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3
+[6.643s] Invoking command in '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3 -- -j12 -l12
+[6.711s] Invoked command in '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3 -- -j12 -l12
+[6.735s] Invoking command in '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3
+[6.754s] -- Install configuration: ""
+[6.754s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//launch
+[6.755s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//launch/multi_robot_scenario.launch.py
+[6.755s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//launch/pioneer3dx.rviz
+[6.755s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//launch/test_simulation.launch.py
+[6.756s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//launch/robot_state_publisher.launch.py
+[6.756s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//launch/training_simulation.launch.py
+[6.756s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models
+[6.757s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot
+[6.757s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description
+[6.757s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/rviz
+[6.757s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/rviz/example.rviz
+[6.757s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/CMakeLists.txt
+[6.758s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf
+[6.758s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/VLP-32C.urdf.xacro
+[6.758s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/example.urdf.xacro
+[6.759s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/VLP-16.urdf.xacro
+[6.759s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/HDL-32E.urdf.xacro
+[6.759s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models
+[6.759s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot
+[6.760s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/rs_robot.sdf
+[6.760s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes
+[6.760s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL
+[6.760s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_base
+[6.760s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_base/YDlidar_base.stl
+[6.761s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension
+[6.761s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_LEFT_LINKSTL.stl
+[6.761s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_RIGHT_LINKSTL.stl
+[6.763s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_RIGHT_LINKSTL.stl
+[6.764s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/sus_link.stl
+[6.764s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_LEFT_LINKSTL.stl
+[6.765s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base
+[6.765s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base/base_link.stl
+[6.766s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base/base_link_old.stl
+[6.768s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_head
+[6.768s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_head/YDlidar_head v4.stl
+[6.768s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors
+[6.769s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf
+[6.769s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf/rear_lrf.stl
+[6.770s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf
+[6.770s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf/front_lrf.stl
+[6.779s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gps
+[6.780s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gps/gps.stl
+[6.783s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/camera
+[6.783s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30
+[6.783s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30/gim30.stl
+[6.798s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/wheel
+[6.798s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/wheel/robot_wheel.stl
+[6.798s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE
+[6.799s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_base
+[6.799s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_base/YDlidar_base.dae
+[6.800s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension
+[6.800s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_left_link.dae
+[6.804s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_left_link.dae
+[6.808s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_right_link.dae
+[6.812s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_right_link.dae
+[6.815s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base
+[6.816s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base/base_link.dae
+[6.833s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base/base_linkOLD.dae
+[6.851s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_head
+[6.851s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_head/YDlidar_head.dae
+[6.852s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors
+[6.852s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf
+[6.852s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/rear_lrf.dae
+[6.855s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/urg_texture.png
+[6.855s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf
+[6.855s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/lrf_texture.png
+[6.856s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/front_lrf.dae
+[6.886s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps
+[6.887s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps_texture.png
+[6.887s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps.dae
+[6.897s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera
+[6.898s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera/camera.dae
+[6.898s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30
+[6.898s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30_lrf_texture.png
+[6.898s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30.dae
+[6.937s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/wheel
+[6.937s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/wheel/wheel_link.dae
+[6.940s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/model.config
+[6.940s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/CHANGELOG.rst
+[6.941s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/launch
+[6.941s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/launch/example-launch.py
+[6.941s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world
+[6.941s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world/lio_sam.model
+[6.941s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world/example.world
+[6.942s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes
+[6.942s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_scan.dae
+[6.942s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_scan.stl
+[6.942s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_scan.dae
+[6.943s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_scan.stl
+[6.943s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_1.stl
+[6.943s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_2.dae
+[6.944s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_1.dae
+[6.944s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_base.stl
+[6.945s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_base.dae
+[6.945s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_2.stl
+[6.945s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/package.xml
+[6.946s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes
+[6.946s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/laser
+[6.946s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/laser/hokuyo.dae
+[6.946s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx
+[6.947s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/center_hubcap.stl
+[6.947s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/Coordinates
+[6.947s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/back_rim.stl
+[6.949s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/top.stl
+[6.949s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/swivel.stl
+[6.950s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/chassis.stl
+[6.950s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/left_hubcap.stl
+[6.950s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/front_sonar.stl
+[6.950s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/right_wheel.stl
+[6.950s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/back_sonar.stl
+[6.951s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/left_wheel.stl
+[6.951s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/right_hubcap.stl
+[6.951s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/center_wheel.stl
+[6.951s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/front_rim.stl
+[6.954s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/model.config
+[6.954s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/td_robot.sdf
+[6.954s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts
+[6.954s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/point_cloud2.py
+[6.954s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/replay_buffer.py
+[6.955s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/train_velodyne_node.py
+[6.955s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/results
+[6.955s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/results/TD3_velodyne.npy
+[6.955s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs
+[6.956s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1680403580.robotmania-MINIPC-PA90.28181.0
+[6.956s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1680403642.robotmania-MINIPC-PA90.28717.0
+[6.957s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/test_velodyne_node.py
+[6.957s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models
+[6.957s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models/td3_velodyne_critic.pth
+[6.964s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models/td3_velodyne_actor.pth
+[6.968s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf
+[6.968s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/td_robot.urdf
+[6.969s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes
+[6.969s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/laser
+[6.969s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/laser/hokuyo.dae
+[6.969s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx
+[6.969s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/center_hubcap.stl
+[6.970s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/Coordinates
+[6.970s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/back_rim.stl
+[6.972s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/top.stl
+[6.972s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/swivel.stl
+[6.972s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/chassis.stl
+[6.972s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/left_hubcap.stl
+[6.973s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/front_sonar.stl
+[6.973s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/right_wheel.stl
+[6.973s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/back_sonar.stl
+[6.973s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/left_wheel.stl
+[6.974s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/right_hubcap.stl
+[6.974s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/center_wheel.stl
+[6.974s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/front_rim.stl
+[6.976s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//worlds
+[6.976s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//worlds/td3.world
+[6.977s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/replay_buffer.py
+[6.977s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/test_velodyne_node.py
+[6.978s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/train_velodyne_node.py
+[6.978s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/point_cloud2.py
+[6.978s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/multi_robot_scenario.launch.py
+[6.978s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/robot_state_publisher.launch.py
+[6.979s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/training_simulation.launch.py
+[6.979s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/test_simulation.launch.py
+[6.979s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/pioneer3dx.rviz
+[6.979s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/package_run_dependencies/td3
+[6.980s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/parent_prefix_path/td3
+[6.980s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/environment/ament_prefix_path.sh
+[6.980s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/environment/ament_prefix_path.dsv
+[6.980s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/environment/path.sh
+[6.981s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/environment/path.dsv
+[6.981s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.bash
+[6.981s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.sh
+[6.981s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.zsh
+[6.982s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.dsv
+[6.982s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/package.dsv
+[6.982s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/packages/td3
+[6.983s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/cmake/td3Config.cmake
+[6.983s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/cmake/td3Config-version.cmake
+[6.983s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/package.xml
+[6.988s] Invoked command in '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3

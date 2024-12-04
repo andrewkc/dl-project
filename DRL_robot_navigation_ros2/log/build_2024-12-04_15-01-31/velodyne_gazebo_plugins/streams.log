@@ -1,0 +1,168 @@
+[0.032s] Invoking command in '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins
+[0.881s] -- The C compiler identification is GNU 11.4.0
+[1.622s] -- The CXX compiler identification is GNU 11.4.0
+[1.642s] -- Detecting C compiler ABI info
+[1.847s] -- Detecting C compiler ABI info - done
+[1.864s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.864s] -- Detecting C compile features
+[1.874s] -- Detecting C compile features - done
+[1.881s] -- Detecting CXX compiler ABI info
+[2.138s] -- Detecting CXX compiler ABI info - done
+[2.149s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.150s] -- Detecting CXX compile features
+[2.150s] -- Detecting CXX compile features - done
+[2.441s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.767s] -- Found Python3: /home/andrewkc/miniconda3/bin/python3 (found version "3.12.5") found components: Interpreter 
+[5.123s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[5.714s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[5.931s] -- Checking for module 'bullet>=2.82'
+[6.218s] --   Found bullet, version 3.05
+[7.241s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[7.359s] -- Found assimp: /usr/include (found version "5.2.0") 
+[7.616s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[8.216s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[8.410s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[8.527s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.650s] -- Searching for dependencies of ignition-math6
+[8.654s] -- Looking for OGRE...
+[8.655s] -- OGRE_PREFIX_WATCH changed.
+[8.669s] -- Checking for module 'OGRE'
+[8.708s] --   Found OGRE, version 1.9.0
+[8.817s] -- Found Ogre Ghadamon (1.9.0)
+[8.867s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[8.881s] -- Looking for OGRE_Paging...
+[8.889s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[8.889s] -- Looking for OGRE_Terrain...
+[8.897s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[8.897s] -- Looking for OGRE_Property...
+[8.907s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[8.907s] -- Looking for OGRE_RTShaderSystem...
+[8.916s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[8.916s] -- Looking for OGRE_Volume...
+[8.925s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[8.926s] -- Looking for OGRE_Overlay...
+[8.934s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[9.514s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.567s] -- Looking for ignition-transport8 -- found version 8.2.1
+[9.568s] -- Searching for dependencies of ignition-transport8
+[9.606s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[9.693s] -- Checking for module 'uuid'
+[9.758s] --   Found uuid, version 2.37.2
+[9.862s] -- Found UUID: TRUE  
+[9.891s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.892s] -- Searching for dependencies of ignition-msgs5
+[9.945s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.953s] -- Checking for module 'tinyxml2'
+[9.996s] --   Found tinyxml2, version 9.0.0
+[10.082s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.137s] -- Looking for ignition-common3 -- found version 3.14.0
+[10.138s] -- Searching for dependencies of ignition-common3
+[10.139s] -- Looking for dlfcn.h - found
+[10.141s] -- Looking for libdl - found
+[10.144s] -- Found DL: TRUE  
+[10.185s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[10.187s] -- Searching for <ignition-common3> component [graphics]
+[10.205s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[10.206s] -- Searching for dependencies of ignition-common3-graphics
+[10.206s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.247s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[10.248s] -- Searching for dependencies of ignition-fuel_tools4
+[10.540s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[10.594s] -- Checking for module 'jsoncpp'
+[10.635s] --   Found jsoncpp, version 1.9.5
+[10.741s] -- Found JSONCPP: TRUE  
+[10.768s] -- Checking for module 'libzip'
+[10.822s] --   Found libzip, version 1.7.3
+[10.923s] -- Found ZIP: TRUE  
+[10.924s] -- Looking for ignition-common3 -- found version 3.14.0
+[10.925s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.926s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.985s] -- Gazebo version: 11.10
+[10.986s] -- Checking for module 'tbb'
+[11.050s] --   Found tbb, version 2021.5.0
+[11.175s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[11.656s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.700s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.801s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.008s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.827s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[15.836s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[16.365s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[16.454s] -- Found FastRTPS: /opt/ros/humble/include  
+[16.551s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.630s] -- Found Threads: TRUE  
+[16.876s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[17.079s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[17.179s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[17.484s] -- Configuring done
+[18.007s] [33mCMake Warning at CMakeLists.txt:23 (add_library):
+[18.007s]   Cannot generate a safe runtime search path for target
+[18.008s]   gazebo_ros_velodyne_laser because files in some directories may conflict
+[18.008s]   with libraries in implicit directories:
+[18.008s] 
+[18.008s]     runtime library [libuuid.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[18.008s]       /home/andrewkc/miniconda3/lib
+[18.008s] 
+[18.008s]   Some of these libraries may not be found correctly.
+[18.008s] 
+[18.008s] [0m
+[18.011s] -- Generating done
+[18.023s] -- Build files have been written to: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins
+[18.043s] Invoked command in '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins
+[18.047s] Invoking command in '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins -- -j12 -l12
+[18.153s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o[0m
+[41.932s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[41.932s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[41.932s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[41.932s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[41.932s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[41.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[41.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[41.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[41.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[41.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[41.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[41.933s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/node.hpp:18[m[K,
+[41.933s]                  from [01m[K/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.h:53[m[K,
+[41.934s]                  from [01m[K/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins/src/GazeboRosVelodyneLaser.cpp:35[m[K:
+[41.934s] [01m[K/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins/src/GazeboRosVelodyneLaser.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboRosVelodyneLaser::Load(gazebo::sensors::SensorPtr, sdf::v9::ElementPtr)[m[K’:
+[41.934s] [01m[K/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins/src/GazeboRosVelodyneLaser.cpp:295:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects a matching ‘[01m[Kchar*[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[41.934s]   295 |   RCLCPP_INFO(ros_node_->get_logger(), [01;35m[K"Velodyne %slaser plugin ready"[m[K);
+[41.934s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.934s] [01m[K/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins/src/GazeboRosVelodyneLaser.cpp:295:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[41.934s]   295 |   RCLCPP_INFO(ros_node_->get_logger(), "Velodyne [01;36m[K%s[m[Klaser plugin ready");
+[41.935s]       |                                                  [01;36m[K~^[m[K
+[41.935s]       |                                                   [01;36m[K|[m[K
+[41.935s]       |                                                   [01;36m[Kchar*[m[K
+[49.585s] [100%] [32m[1mLinking CXX shared library libgazebo_ros_velodyne_laser.so[0m
+[52.178s] [100%] Built target gazebo_ros_velodyne_laser
+[52.204s] Invoked command in '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins -- -j12 -l12
+[52.207s] Invoking command in '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins
+[52.227s] -- Install configuration: ""
+[52.228s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.sh
+[52.228s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.dsv
+[52.229s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/velodyne_gazebo_plugins
+[52.229s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/velodyne_gazebo_plugins
+[52.229s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.sh
+[52.230s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.dsv
+[52.230s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.sh
+[52.230s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.dsv
+[52.231s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.bash
+[52.231s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.sh
+[52.231s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.zsh
+[52.231s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.dsv
+[52.231s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv
+[52.232s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/ament_index/resource_index/packages/velodyne_gazebo_plugins
+[52.232s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[52.232s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[52.233s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[52.233s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake
+[52.233s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig-version.cmake
+[52.233s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.xml
+[52.234s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/include
+[52.234s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins
+[52.234s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.h
+[52.304s] -- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so
+[52.313s] -- Set runtime path of "/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so" to ""
+[52.319s] Invoked command in '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins

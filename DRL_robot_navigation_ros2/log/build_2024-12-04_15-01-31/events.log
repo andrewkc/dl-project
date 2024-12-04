@@ -1,0 +1,1187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000715] (td3) JobQueued: {'identifier': 'td3', 'dependencies': OrderedDict()}
+[0.000797] (velodyne_description) JobQueued: {'identifier': 'velodyne_description', 'dependencies': OrderedDict()}
+[0.000849] (velodyne_gazebo_plugins) JobQueued: {'identifier': 'velodyne_gazebo_plugins', 'dependencies': OrderedDict()}
+[0.000896] (velodyne_simulator) JobQueued: {'identifier': 'velodyne_simulator', 'dependencies': OrderedDict([('velodyne_description', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description'), ('velodyne_gazebo_plugins', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins')])}
+[0.000963] (velodyne_description) JobStarted: {'identifier': 'velodyne_description'}
+[0.009793] (velodyne_gazebo_plugins) JobStarted: {'identifier': 'velodyne_gazebo_plugins'}
+[0.017354] (td3) JobStarted: {'identifier': 'td3'}
+[0.029523] (velodyne_description) JobProgress: {'identifier': 'velodyne_description', 'progress': 'cmake'}
+[0.030552] (velodyne_description) Command: {'cmd': ['/usr/bin/cmake', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_description', '-DCMAKE_INSTALL_PREFIX=/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description'], 'cwd': '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '179973'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/241583_1733342067013/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_description'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/241583_1733342067013'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.035439] (velodyne_gazebo_plugins) JobProgress: {'identifier': 'velodyne_gazebo_plugins', 'progress': 'cmake'}
+[0.037902] (velodyne_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins', '-DCMAKE_INSTALL_PREFIX=/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins'], 'cwd': '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '179973'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/241583_1733342067013/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/241583_1733342067013'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.043188] (td3) JobProgress: {'identifier': 'td3', 'progress': 'cmake'}
+[0.045116] (td3) Command: {'cmd': ['/usr/bin/cmake', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/td3', '-DCMAKE_INSTALL_PREFIX=/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3'], 'cwd': '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '179973'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/241583_1733342067013/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/241583_1733342067013'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098678] (-) TimerEvent: {}
+[0.199373] (-) TimerEvent: {}
+[0.300013] (-) TimerEvent: {}
+[0.400624] (-) TimerEvent: {}
+[0.501200] (-) TimerEvent: {}
+[0.601815] (-) TimerEvent: {}
+[0.702475] (-) TimerEvent: {}
+[0.803204] (-) TimerEvent: {}
+[0.882499] (td3) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.888181] (velodyne_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.891409] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.903392] (-) TimerEvent: {}
+[1.004275] (-) TimerEvent: {}
+[1.104964] (-) TimerEvent: {}
+[1.205682] (-) TimerEvent: {}
+[1.306362] (-) TimerEvent: {}
+[1.406981] (-) TimerEvent: {}
+[1.507675] (-) TimerEvent: {}
+[1.608258] (-) TimerEvent: {}
+[1.626558] (td3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.629605] (velodyne_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.632149] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.645902] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.649902] (td3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.652245] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.708420] (-) TimerEvent: {}
+[1.808962] (-) TimerEvent: {}
+[1.853626] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.857570] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.862746] (td3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.864901] (velodyne_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.865539] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.874146] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.874423] (td3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.874662] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.874867] (td3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.884061] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.884435] (td3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.884696] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.889759] (td3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.891436] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.892176] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.909151] (-) TimerEvent: {}
+[2.009729] (-) TimerEvent: {}
+[2.110377] (-) TimerEvent: {}
+[2.134076] (td3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.142885] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.148522] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.150241] (td3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.150737] (td3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.151598] (td3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.158213] (velodyne_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.158579] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.159277] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.159782] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.160242] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.160880] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.210556] (-) TimerEvent: {}
+[2.311014] (-) TimerEvent: {}
+[2.411539] (-) TimerEvent: {}
+[2.450868] (velodyne_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.451516] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.451879] (td3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.511716] (-) TimerEvent: {}
+[2.612264] (-) TimerEvent: {}
+[2.712673] (-) TimerEvent: {}
+[2.813120] (-) TimerEvent: {}
+[2.913522] (-) TimerEvent: {}
+[3.014159] (-) TimerEvent: {}
+[3.114746] (-) TimerEvent: {}
+[3.215515] (-) TimerEvent: {}
+[3.316174] (-) TimerEvent: {}
+[3.416766] (-) TimerEvent: {}
+[3.517511] (-) TimerEvent: {}
+[3.618130] (-) TimerEvent: {}
+[3.718729] (-) TimerEvent: {}
+[3.819481] (-) TimerEvent: {}
+[3.920143] (-) TimerEvent: {}
+[4.020847] (-) TimerEvent: {}
+[4.121568] (-) TimerEvent: {}
+[4.222282] (-) TimerEvent: {}
+[4.322950] (-) TimerEvent: {}
+[4.423676] (-) TimerEvent: {}
+[4.524357] (-) TimerEvent: {}
+[4.624964] (-) TimerEvent: {}
+[4.725417] (-) TimerEvent: {}
+[4.754904] (velodyne_description) StdoutLine: {'line': b'-- Found Python3: /home/andrewkc/miniconda3/bin/python3 (found version "3.12.5") found components: Interpreter \n'}
+[4.775539] (td3) StdoutLine: {'line': b'-- Found Python3: /home/andrewkc/miniconda3/bin/python3 (found version "3.12.5") found components: Interpreter \n'}
+[4.777062] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Python3: /home/andrewkc/miniconda3/bin/python3 (found version "3.12.5") found components: Interpreter \n'}
+[4.825565] (-) TimerEvent: {}
+[4.925975] (-) TimerEvent: {}
+[5.026481] (-) TimerEvent: {}
+[5.126920] (-) TimerEvent: {}
+[5.133557] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[5.155397] (td3) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.227273] (-) TimerEvent: {}
+[5.327734] (-) TimerEvent: {}
+[5.428372] (-) TimerEvent: {}
+[5.528961] (-) TimerEvent: {}
+[5.629702] (-) TimerEvent: {}
+[5.721944] (velodyne_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[5.722425] (velodyne_description) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[5.722588] (velodyne_description) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[5.722725] (velodyne_description) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[5.722859] (velodyne_description) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[5.722994] (velodyne_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.723168] (velodyne_description) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[5.723309] (velodyne_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[5.723442] (velodyne_description) StderrLine: {'line': b'  CMakeLists.txt:5 (find_package)\n'}
+[5.723574] (velodyne_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.723710] (velodyne_description) StderrLine: {'line': b'\x1b[0m\n'}
+[5.723843] (velodyne_description) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[5.723999] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[5.729820] (-) TimerEvent: {}
+[5.830369] (-) TimerEvent: {}
+[5.930914] (-) TimerEvent: {}
+[5.941199] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[5.941839] (velodyne_description) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[6.031182] (-) TimerEvent: {}
+[6.132129] (-) TimerEvent: {}
+[6.227723] (velodyne_description) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[6.228160] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[6.232287] (-) TimerEvent: {}
+[6.332856] (-) TimerEvent: {}
+[6.433293] (-) TimerEvent: {}
+[6.530414] (td3) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.533439] (-) TimerEvent: {}
+[6.614313] (td3) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.619023] (td3) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.621876] (td3) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.633554] (-) TimerEvent: {}
+[6.640452] (td3) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.642608] (td3) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.647769] (td3) StdoutLine: {'line': b'-- Generating done\n'}
+[6.650741] (td3) StdoutLine: {'line': b'-- Build files have been written to: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3\n'}
+[6.657442] (td3) CommandEnded: {'returncode': 0}
+[6.658317] (td3) JobProgress: {'identifier': 'td3', 'progress': 'build'}
+[6.659705] (td3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3', '--', '-j12', '-l12'], 'cwd': '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '179973'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/241583_1733342067013/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/241583_1733342067013'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.728455] (td3) CommandEnded: {'returncode': 0}
+[6.729420] (td3) JobProgress: {'identifier': 'td3', 'progress': 'install'}
+[6.733660] (-) TimerEvent: {}
+[6.751435] (td3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3'], 'cwd': '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '179973'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/241583_1733342067013/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/td3'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/241583_1733342067013'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.771658] (td3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.772013] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//launch\n'}
+[6.772344] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//launch/multi_robot_scenario.launch.py\n'}
+[6.772621] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//launch/pioneer3dx.rviz\n'}
+[6.772943] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//launch/test_simulation.launch.py\n'}
+[6.773256] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//launch/robot_state_publisher.launch.py\n'}
+[6.773530] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//launch/training_simulation.launch.py\n'}
+[6.773789] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models\n'}
+[6.774152] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot\n'}
+[6.774398] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description\n'}
+[6.774616] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/rviz\n'}
+[6.774805] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/rviz/example.rviz\n'}
+[6.774989] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/CMakeLists.txt\n'}
+[6.775307] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf\n'}
+[6.775647] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/VLP-32C.urdf.xacro\n'}
+[6.775891] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/example.urdf.xacro\n'}
+[6.776106] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/VLP-16.urdf.xacro\n'}
+[6.776318] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/HDL-32E.urdf.xacro\n'}
+[6.776501] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models\n'}
+[6.776763] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot\n'}
+[6.777094] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/rs_robot.sdf\n'}
+[6.777323] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes\n'}
+[6.777474] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL\n'}
+[6.777617] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_base\n'}
+[6.777794] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_base/YDlidar_base.stl\n'}
+[6.778099] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension\n'}
+[6.778314] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_LEFT_LINKSTL.stl\n'}
+[6.778972] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_RIGHT_LINKSTL.stl\n'}
+[6.780136] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_RIGHT_LINKSTL.stl\n'}
+[6.781154] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/sus_link.stl\n'}
+[6.781503] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_LEFT_LINKSTL.stl\n'}
+[6.782529] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base\n'}
+[6.782908] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base/base_link.stl\n'}
+[6.783135] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base/base_link_old.stl\n'}
+[6.785145] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_head\n'}
+[6.785528] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_head/YDlidar_head v4.stl\n'}
+[6.785804] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors\n'}
+[6.786113] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf\n'}
+[6.786312] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf/rear_lrf.stl\n'}
+[6.787178] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf\n'}
+[6.787473] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf/front_lrf.stl\n'}
+[6.796997] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gps\n'}
+[6.797396] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gps/gps.stl\n'}
+[6.800521] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/camera\n'}
+[6.800892] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30\n'}
+[6.801085] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30/gim30.stl\n'}
+[6.815328] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/wheel\n'}
+[6.815763] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/wheel/robot_wheel.stl\n'}
+[6.815988] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE\n'}
+[6.816324] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_base\n'}
+[6.816505] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_base/YDlidar_base.dae\n'}
+[6.817337] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension\n'}
+[6.817661] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_left_link.dae\n'}
+[6.821371] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_left_link.dae\n'}
+[6.825369] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_right_link.dae\n'}
+[6.829150] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_right_link.dae\n'}
+[6.832872] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base\n'}
+[6.833265] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base/base_link.dae\n'}
+[6.833761] (-) TimerEvent: {}
+[6.850786] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base/base_linkOLD.dae\n'}
+[6.868433] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_head\n'}
+[6.868786] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_head/YDlidar_head.dae\n'}
+[6.869157] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors\n'}
+[6.869436] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf\n'}
+[6.869591] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/rear_lrf.dae\n'}
+[6.872186] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/urg_texture.png\n'}
+[6.872491] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf\n'}
+[6.872783] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/lrf_texture.png\n'}
+[6.873105] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/front_lrf.dae\n'}
+[6.903935] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps\n'}
+[6.904328] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps_texture.png\n'}
+[6.904648] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps.dae\n'}
+[6.914760] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera\n'}
+[6.915135] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera/camera.dae\n'}
+[6.915418] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30\n'}
+[6.915577] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30_lrf_texture.png\n'}
+[6.915863] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30.dae\n'}
+[6.933932] (-) TimerEvent: {}
+[6.954377] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/wheel\n'}
+[6.954732] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/wheel/wheel_link.dae\n'}
+[6.957333] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/model.config\n'}
+[6.957772] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/CHANGELOG.rst\n'}
+[6.958080] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/launch\n'}
+[6.958435] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/launch/example-launch.py\n'}
+[6.958667] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world\n'}
+[6.958877] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world/lio_sam.model\n'}
+[6.959085] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world/example.world\n'}
+[6.959295] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes\n'}
+[6.959481] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_scan.dae\n'}
+[6.959726] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_scan.stl\n'}
+[6.959965] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_scan.dae\n'}
+[6.960167] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_scan.stl\n'}
+[6.960459] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_1.stl\n'}
+[6.960703] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_2.dae\n'}
+[6.961261] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_1.dae\n'}
+[6.961913] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_base.stl\n'}
+[6.962260] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_base.dae\n'}
+[6.962732] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_2.stl\n'}
+[6.963083] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/package.xml\n'}
+[6.963312] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes\n'}
+[6.963538] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/laser\n'}
+[6.963693] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/laser/hokuyo.dae\n'}
+[6.963948] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx\n'}
+[6.964201] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/center_hubcap.stl\n'}
+[6.964430] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/Coordinates\n'}
+[6.964646] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/back_rim.stl\n'}
+[6.966752] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/top.stl\n'}
+[6.966986] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/swivel.stl\n'}
+[6.967257] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/chassis.stl\n'}
+[6.967455] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/left_hubcap.stl\n'}
+[6.967637] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/front_sonar.stl\n'}
+[6.967832] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/right_wheel.stl\n'}
+[6.968102] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/back_sonar.stl\n'}
+[6.968359] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/left_wheel.stl\n'}
+[6.968577] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/right_hubcap.stl\n'}
+[6.968791] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/center_wheel.stl\n'}
+[6.969008] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/front_rim.stl\n'}
+[6.971124] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/model.config\n'}
+[6.971365] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/td_robot.sdf\n'}
+[6.971577] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts\n'}
+[6.971762] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/point_cloud2.py\n'}
+[6.971972] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/replay_buffer.py\n'}
+[6.972247] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/train_velodyne_node.py\n'}
+[6.972482] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/results\n'}
+[6.972762] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/results/TD3_velodyne.npy\n'}
+[6.972948] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs\n'}
+[6.973227] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1680403580.robotmania-MINIPC-PA90.28181.0\n'}
+[6.973394] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1680403642.robotmania-MINIPC-PA90.28717.0\n'}
+[6.974220] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/test_velodyne_node.py\n'}
+[6.974456] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models\n'}
+[6.974707] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models/td3_velodyne_critic.pth\n'}
+[6.981842] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models/td3_velodyne_actor.pth\n'}
+[6.985599] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf\n'}
+[6.985979] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/td_robot.urdf\n'}
+[6.986236] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes\n'}
+[6.986379] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/laser\n'}
+[6.986514] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/laser/hokuyo.dae\n'}
+[6.986715] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx\n'}
+[6.986953] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/center_hubcap.stl\n'}
+[6.987151] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/Coordinates\n'}
+[6.987300] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/back_rim.stl\n'}
+[6.989261] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/top.stl\n'}
+[6.989509] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/swivel.stl\n'}
+[6.989743] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/chassis.stl\n'}
+[6.989966] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/left_hubcap.stl\n'}
+[6.990202] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/front_sonar.stl\n'}
+[6.990383] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/right_wheel.stl\n'}
+[6.990709] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/back_sonar.stl\n'}
+[6.991008] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/left_wheel.stl\n'}
+[6.991474] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/right_hubcap.stl\n'}
+[6.991691] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/center_wheel.stl\n'}
+[6.991931] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/front_rim.stl\n'}
+[6.993813] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//worlds\n'}
+[6.994087] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3//worlds/td3.world\n'}
+[6.994587] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/replay_buffer.py\n'}
+[6.994962] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/test_velodyne_node.py\n'}
+[6.995341] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/train_velodyne_node.py\n'}
+[6.995530] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/point_cloud2.py\n'}
+[6.995841] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/multi_robot_scenario.launch.py\n'}
+[6.996069] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/robot_state_publisher.launch.py\n'}
+[6.996389] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/training_simulation.launch.py\n'}
+[6.996594] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/test_simulation.launch.py\n'}
+[6.996739] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/lib/td3/pioneer3dx.rviz\n'}
+[6.997003] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/package_run_dependencies/td3\n'}
+[6.997284] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/parent_prefix_path/td3\n'}
+[6.997569] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/environment/ament_prefix_path.sh\n'}
+[6.997810] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/environment/ament_prefix_path.dsv\n'}
+[6.998065] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/environment/path.sh\n'}
+[6.998319] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/environment/path.dsv\n'}
+[6.998565] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.bash\n'}
+[6.998818] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.sh\n'}
+[6.999090] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.zsh\n'}
+[6.999360] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.dsv\n'}
+[6.999623] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/package.dsv\n'}
+[6.999906] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/packages/td3\n'}
+[7.000261] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/cmake/td3Config.cmake\n'}
+[7.000536] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/cmake/td3Config-version.cmake\n'}
+[7.000814] (td3) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/td3/share/td3/package.xml\n'}
+[7.004581] (td3) CommandEnded: {'returncode': 0}
+[7.034098] (-) TimerEvent: {}
+[7.134946] (-) TimerEvent: {}
+[7.200926] (td3) JobEnded: {'identifier': 'td3', 'rc': 0}
+[7.235121] (-) TimerEvent: {}
+[7.242083] (velodyne_description) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[7.251060] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[7.335271] (-) TimerEvent: {}
+[7.369601] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[7.374098] (velodyne_description) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[7.435462] (-) TimerEvent: {}
+[7.536089] (-) TimerEvent: {}
+[7.625310] (velodyne_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[7.626416] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[7.636196] (-) TimerEvent: {}
+[7.736642] (-) TimerEvent: {}
+[7.837290] (-) TimerEvent: {}
+[7.937774] (-) TimerEvent: {}
+[8.038241] (-) TimerEvent: {}
+[8.138587] (-) TimerEvent: {}
+[8.226285] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[8.226631] (velodyne_description) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[8.238754] (-) TimerEvent: {}
+[8.339170] (-) TimerEvent: {}
+[8.420156] (velodyne_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[8.420555] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[8.439319] (-) TimerEvent: {}
+[8.537278] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.537677] (velodyne_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.539416] (-) TimerEvent: {}
+[8.639761] (-) TimerEvent: {}
+[8.660066] (velodyne_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[8.660372] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[8.664481] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[8.664743] (velodyne_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[8.665483] (velodyne_description) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[8.665715] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[8.679304] (velodyne_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[8.679802] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[8.717647] (velodyne_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[8.718725] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[8.739919] (-) TimerEvent: {}
+[8.827568] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[8.827967] (velodyne_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[8.840080] (-) TimerEvent: {}
+[8.877153] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[8.881397] (velodyne_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[8.891271] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[8.899258] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[8.899549] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[8.904101] (velodyne_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[8.907671] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[8.907965] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[8.913573] (velodyne_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[8.913855] (velodyne_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[8.917472] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[8.917759] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[8.922358] (velodyne_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[8.924900] (velodyne_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[8.926544] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[8.926822] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[8.932300] (velodyne_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[8.932585] (velodyne_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[8.935811] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[8.936110] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[8.940247] (-) TimerEvent: {}
+[8.941348] (velodyne_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[8.941620] (velodyne_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[8.944861] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[8.949874] (velodyne_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[8.950199] (velodyne_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[8.957582] (velodyne_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[9.040460] (-) TimerEvent: {}
+[9.141004] (-) TimerEvent: {}
+[9.241552] (-) TimerEvent: {}
+[9.342072] (-) TimerEvent: {}
+[9.442644] (-) TimerEvent: {}
+[9.524518] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.535166] (velodyne_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.542947] (-) TimerEvent: {}
+[9.577771] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[9.578071] (velodyne_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[9.578362] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[9.578691] (velodyne_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[9.615987] (velodyne_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[9.616737] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[9.643252] (-) TimerEvent: {}
+[9.703740] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[9.706249] (velodyne_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[9.743446] (-) TimerEvent: {}
+[9.768150] (velodyne_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[9.768877] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[9.843588] (-) TimerEvent: {}
+[9.872537] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[9.872984] (velodyne_description) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[9.901155] (velodyne_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[9.901552] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[9.902300] (velodyne_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[9.902534] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[9.943751] (-) TimerEvent: {}
+[9.954575] (velodyne_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.955168] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.963743] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[9.965246] (velodyne_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[10.006005] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[10.011411] (velodyne_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[10.043918] (-) TimerEvent: {}
+[10.092840] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.100901] (velodyne_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.144283] (-) TimerEvent: {}
+[10.147097] (velodyne_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[10.147553] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[10.148259] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[10.148489] (velodyne_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[10.149322] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[10.149560] (velodyne_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[10.151335] (velodyne_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[10.151696] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[10.154708] (velodyne_description) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[10.154981] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[10.195853] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[10.196171] (velodyne_description) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[10.197412] (velodyne_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[10.197648] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[10.215215] (velodyne_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[10.215482] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[10.216163] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[10.216479] (velodyne_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[10.216854] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.217259] (velodyne_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.244463] (-) TimerEvent: {}
+[10.257517] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[10.257809] (velodyne_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[10.258571] (velodyne_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[10.258797] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[10.344598] (-) TimerEvent: {}
+[10.444988] (-) TimerEvent: {}
+[10.522824] (velodyne_description) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[10.545148] (-) TimerEvent: {}
+[10.549986] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[10.604634] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[10.605333] (velodyne_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[10.645333] (-) TimerEvent: {}
+[10.645764] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[10.646929] (velodyne_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[10.744448] (velodyne_description) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[10.745431] (-) TimerEvent: {}
+[10.751262] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[10.778754] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[10.779240] (velodyne_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[10.832475] (velodyne_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[10.832863] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[10.845594] (-) TimerEvent: {}
+[10.933001] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[10.934186] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[10.935229] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.936400] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.936981] (velodyne_description) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[10.938055] (velodyne_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[10.938932] (velodyne_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.939970] (velodyne_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.945752] (-) TimerEvent: {}
+[10.995489] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[10.996471] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[11.023510] (velodyne_description) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[11.045918] (-) TimerEvent: {}
+[11.060363] (velodyne_gazebo_plugins) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[11.146118] (-) TimerEvent: {}
+[11.167217] (velodyne_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.178544] (velodyne_description) StdoutLine: {'line': b'-- Generating done\n'}
+[11.185152] (velodyne_description) StdoutLine: {'line': b'-- Build files have been written to: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_description\n'}
+[11.185899] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[11.204666] (velodyne_description) CommandEnded: {'returncode': 0}
+[11.206154] (velodyne_description) JobProgress: {'identifier': 'velodyne_description', 'progress': 'build'}
+[11.208234] (velodyne_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_description', '--', '-j12', '-l12'], 'cwd': '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '179973'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/241583_1733342067013/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_description'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/241583_1733342067013'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.246284] (-) TimerEvent: {}
+[11.293861] (velodyne_description) CommandEnded: {'returncode': 0}
+[11.294987] (velodyne_description) JobProgress: {'identifier': 'velodyne_description', 'progress': 'install'}
+[11.296684] (velodyne_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_description'], 'cwd': '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '179973'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/241583_1733342067013/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_description'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/241583_1733342067013'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.308793] (velodyne_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.309230] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/ament_index/resource_index/package_run_dependencies/velodyne_description\n'}
+[11.309569] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/ament_index/resource_index/parent_prefix_path/velodyne_description\n'}
+[11.309859] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.sh\n'}
+[11.310120] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.dsv\n'}
+[11.310380] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/environment/path.sh\n'}
+[11.310616] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/environment/path.dsv\n'}
+[11.310846] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/local_setup.bash\n'}
+[11.311073] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/local_setup.sh\n'}
+[11.311350] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/local_setup.zsh\n'}
+[11.311602] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/local_setup.dsv\n'}
+[11.311836] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.dsv\n'}
+[11.312126] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/ament_index/resource_index/packages/velodyne_description\n'}
+[11.312418] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.312647] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig.cmake\n'}
+[11.312865] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig-version.cmake\n'}
+[11.313138] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/package.xml\n'}
+[11.313455] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/launch\n'}
+[11.313673] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/launch/example-launch.py\n'}
+[11.313968] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes\n'}
+[11.314326] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.dae\n'}
+[11.314553] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.stl\n'}
+[11.314799] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.dae\n'}
+[11.315514] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.stl\n'}
+[11.316094] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.stl\n'}
+[11.316574] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.dae\n'}
+[11.317183] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.dae\n'}
+[11.317905] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.stl\n'}
+[11.318325] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.dae\n'}
+[11.318721] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.stl\n'}
+[11.319113] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/rviz\n'}
+[11.319398] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/rviz/example.rviz\n'}
+[11.319641] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf\n'}
+[11.319823] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf/VLP-32C.urdf.xacro\n'}
+[11.320458] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf/example.urdf.xacro\n'}
+[11.320700] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf/VLP-16.urdf.xacro\n'}
+[11.321001] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/urdf/HDL-32E.urdf.xacro\n'}
+[11.321339] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/world\n'}
+[11.321563] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/world/lio_sam.model\n'}
+[11.321805] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/world/example.world\n'}
+[11.322209] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models\n'}
+[11.322622] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot\n'}
+[11.322847] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/rs_robot.sdf\n'}
+[11.323019] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes\n'}
+[11.323327] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL\n'}
+[11.323466] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_base\n'}
+[11.323630] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_base/YDlidar_base.stl\n'}
+[11.324304] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension\n'}
+[11.324619] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_LEFT_LINKSTL.stl\n'}
+[11.325456] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_RIGHT_LINKSTL.stl\n'}
+[11.326504] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_RIGHT_LINKSTL.stl\n'}
+[11.327501] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/sus_link.stl\n'}
+[11.327858] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_LEFT_LINKSTL.stl\n'}
+[11.328715] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/base\n'}
+[11.328968] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/base/base_link.stl\n'}
+[11.329213] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/base/base_link_old.stl\n'}
+[11.331122] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_head\n'}
+[11.331422] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_head/YDlidar_head v4.stl\n'}
+[11.331729] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors\n'}
+[11.331923] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf\n'}
+[11.332085] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf/rear_lrf.stl\n'}
+[11.333000] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf\n'}
+[11.333316] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf/front_lrf.stl\n'}
+[11.342892] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gps\n'}
+[11.343243] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gps/gps.stl\n'}
+[11.346386] (-) TimerEvent: {}
+[11.346682] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/camera\n'}
+[11.346891] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30\n'}
+[11.347143] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30/gim30.stl\n'}
+[11.361524] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/wheel\n'}
+[11.361909] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/wheel/robot_wheel.stl\n'}
+[11.362251] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE\n'}
+[11.362439] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_base\n'}
+[11.362583] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_base/YDlidar_base.dae\n'}
+[11.363416] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension\n'}
+[11.363712] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_left_link.dae\n'}
+[11.367529] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_left_link.dae\n'}
+[11.371470] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_right_link.dae\n'}
+[11.375242] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_right_link.dae\n'}
+[11.379182] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/base\n'}
+[11.379589] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/base/base_link.dae\n'}
+[11.396960] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/base/base_linkOLD.dae\n'}
+[11.414330] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_head\n'}
+[11.414678] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_head/YDlidar_head.dae\n'}
+[11.414981] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors\n'}
+[11.415215] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf\n'}
+[11.415360] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/rear_lrf.dae\n'}
+[11.417926] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/urg_texture.png\n'}
+[11.418378] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf\n'}
+[11.418596] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/lrf_texture.png\n'}
+[11.418743] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/front_lrf.dae\n'}
+[11.446571] (-) TimerEvent: {}
+[11.449332] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps\n'}
+[11.449753] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps_texture.png\n'}
+[11.449916] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps.dae\n'}
+[11.460264] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera\n'}
+[11.460606] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera/camera.dae\n'}
+[11.460822] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30\n'}
+[11.460977] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30_lrf_texture.png\n'}
+[11.461198] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30.dae\n'}
+[11.546733] (-) TimerEvent: {}
+[11.647347] (-) TimerEvent: {}
+[11.666870] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[11.693535] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/wheel\n'}
+[11.693932] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/wheel/wheel_link.dae\n'}
+[11.709936] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.712912] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description/share/velodyne_description/models/rs_robot/model.config\n'}
+[11.719253] (velodyne_description) CommandEnded: {'returncode': 0}
+[11.747494] (-) TimerEvent: {}
+[11.811448] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[11.839942] (velodyne_description) JobEnded: {'identifier': 'velodyne_description', 'rc': 0}
+[11.847649] (-) TimerEvent: {}
+[11.948090] (-) TimerEvent: {}
+[12.018787] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.048226] (-) TimerEvent: {}
+[12.286831] (-) TimerEvent: {}
+[12.387393] (-) TimerEvent: {}
+[12.487848] (-) TimerEvent: {}
+[12.588290] (-) TimerEvent: {}
+[12.688714] (-) TimerEvent: {}
+[12.789089] (-) TimerEvent: {}
+[12.889484] (-) TimerEvent: {}
+[13.028507] (-) TimerEvent: {}
+[13.129204] (-) TimerEvent: {}
+[13.229860] (-) TimerEvent: {}
+[13.330577] (-) TimerEvent: {}
+[13.391417] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.430827] (-) TimerEvent: {}
+[13.531550] (-) TimerEvent: {}
+[13.632221] (-) TimerEvent: {}
+[13.732806] (-) TimerEvent: {}
+[13.833510] (-) TimerEvent: {}
+[13.934184] (-) TimerEvent: {}
+[14.034827] (-) TimerEvent: {}
+[14.135559] (-) TimerEvent: {}
+[14.236448] (-) TimerEvent: {}
+[14.337345] (-) TimerEvent: {}
+[14.438015] (-) TimerEvent: {}
+[14.538711] (-) TimerEvent: {}
+[14.639634] (-) TimerEvent: {}
+[14.740510] (-) TimerEvent: {}
+[14.841399] (-) TimerEvent: {}
+[14.942008] (-) TimerEvent: {}
+[15.042809] (-) TimerEvent: {}
+[15.143508] (-) TimerEvent: {}
+[15.244179] (-) TimerEvent: {}
+[15.344831] (-) TimerEvent: {}
+[15.445579] (-) TimerEvent: {}
+[15.546263] (-) TimerEvent: {}
+[15.646898] (-) TimerEvent: {}
+[15.747801] (-) TimerEvent: {}
+[15.837726] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[15.846649] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[15.847908] (-) TimerEvent: {}
+[15.948627] (-) TimerEvent: {}
+[16.049361] (-) TimerEvent: {}
+[16.150127] (-) TimerEvent: {}
+[16.250716] (-) TimerEvent: {}
+[16.351819] (-) TimerEvent: {}
+[16.374828] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[16.451974] (-) TimerEvent: {}
+[16.464719] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[16.552162] (-) TimerEvent: {}
+[16.561112] (velodyne_gazebo_plugins) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.640794] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[16.652373] (-) TimerEvent: {}
+[16.752876] (-) TimerEvent: {}
+[16.853315] (-) TimerEvent: {}
+[16.886177] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[16.953454] (-) TimerEvent: {}
+[17.053834] (-) TimerEvent: {}
+[17.089089] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[17.153974] (-) TimerEvent: {}
+[17.189731] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[17.254156] (-) TimerEvent: {}
+[17.354583] (-) TimerEvent: {}
+[17.454986] (-) TimerEvent: {}
+[17.494837] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.555117] (-) TimerEvent: {}
+[17.655454] (-) TimerEvent: {}
+[17.755901] (-) TimerEvent: {}
+[17.856582] (-) TimerEvent: {}
+[17.957066] (-) TimerEvent: {}
+[18.017764] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:23 (add_library):\n'}
+[18.017998] (velodyne_gazebo_plugins) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[18.018116] (velodyne_gazebo_plugins) StderrLine: {'line': b'  gazebo_ros_velodyne_laser because files in some directories may conflict\n'}
+[18.018213] (velodyne_gazebo_plugins) StderrLine: {'line': b'  with libraries in implicit directories:\n'}
+[18.018305] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[18.018391] (velodyne_gazebo_plugins) StderrLine: {'line': b'    runtime library [libuuid.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[18.018489] (velodyne_gazebo_plugins) StderrLine: {'line': b'      /home/andrewkc/miniconda3/lib\n'}
+[18.018575] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[18.018659] (velodyne_gazebo_plugins) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[18.018755] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[18.018919] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[0m\n'}
+[18.021431] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Generating done\n'}
+[18.033701] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Build files have been written to: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins\n'}
+[18.053252] (velodyne_gazebo_plugins) CommandEnded: {'returncode': 0}
+[18.054668] (velodyne_gazebo_plugins) JobProgress: {'identifier': 'velodyne_gazebo_plugins', 'progress': 'build'}
+[18.056928] (velodyne_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins', '--', '-j12', '-l12'], 'cwd': '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '179973'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/241583_1733342067013/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/241583_1733342067013'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.058244] (-) TimerEvent: {}
+[18.158757] (-) TimerEvent: {}
+[18.162990] (velodyne_gazebo_plugins) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o\x1b[0m\n'}
+[18.258912] (-) TimerEvent: {}
+[18.359350] (-) TimerEvent: {}
+[18.459761] (-) TimerEvent: {}
+[18.560173] (-) TimerEvent: {}
+[18.660701] (-) TimerEvent: {}
+[18.761131] (-) TimerEvent: {}
+[18.861594] (-) TimerEvent: {}
+[18.962022] (-) TimerEvent: {}
+[19.062618] (-) TimerEvent: {}
+[19.163135] (-) TimerEvent: {}
+[19.263778] (-) TimerEvent: {}
+[19.364386] (-) TimerEvent: {}
+[19.465028] (-) TimerEvent: {}
+[19.565729] (-) TimerEvent: {}
+[19.666403] (-) TimerEvent: {}
+[19.767263] (-) TimerEvent: {}
+[19.867923] (-) TimerEvent: {}
+[19.968562] (-) TimerEvent: {}
+[20.069363] (-) TimerEvent: {}
+[20.170015] (-) TimerEvent: {}
+[20.270634] (-) TimerEvent: {}
+[20.371320] (-) TimerEvent: {}
+[20.471881] (-) TimerEvent: {}
+[20.572391] (-) TimerEvent: {}
+[20.672821] (-) TimerEvent: {}
+[20.773351] (-) TimerEvent: {}
+[20.874209] (-) TimerEvent: {}
+[20.975131] (-) TimerEvent: {}
+[21.075813] (-) TimerEvent: {}
+[21.176474] (-) TimerEvent: {}
+[21.277369] (-) TimerEvent: {}
+[21.378073] (-) TimerEvent: {}
+[21.479123] (-) TimerEvent: {}
+[21.579756] (-) TimerEvent: {}
+[21.680384] (-) TimerEvent: {}
+[21.780999] (-) TimerEvent: {}
+[21.881606] (-) TimerEvent: {}
+[21.982301] (-) TimerEvent: {}
+[22.082992] (-) TimerEvent: {}
+[22.183699] (-) TimerEvent: {}
+[22.284390] (-) TimerEvent: {}
+[22.384999] (-) TimerEvent: {}
+[22.485724] (-) TimerEvent: {}
+[22.586383] (-) TimerEvent: {}
+[22.686972] (-) TimerEvent: {}
+[22.787609] (-) TimerEvent: {}
+[22.888215] (-) TimerEvent: {}
+[22.988834] (-) TimerEvent: {}
+[23.089458] (-) TimerEvent: {}
+[23.190324] (-) TimerEvent: {}
+[23.290948] (-) TimerEvent: {}
+[23.391571] (-) TimerEvent: {}
+[23.492175] (-) TimerEvent: {}
+[23.592671] (-) TimerEvent: {}
+[23.693098] (-) TimerEvent: {}
+[23.793454] (-) TimerEvent: {}
+[23.893777] (-) TimerEvent: {}
+[23.994378] (-) TimerEvent: {}
+[24.094727] (-) TimerEvent: {}
+[24.195173] (-) TimerEvent: {}
+[24.295620] (-) TimerEvent: {}
+[24.396099] (-) TimerEvent: {}
+[24.496565] (-) TimerEvent: {}
+[24.597097] (-) TimerEvent: {}
+[24.697693] (-) TimerEvent: {}
+[24.798250] (-) TimerEvent: {}
+[24.898712] (-) TimerEvent: {}
+[24.999192] (-) TimerEvent: {}
+[25.099864] (-) TimerEvent: {}
+[25.200441] (-) TimerEvent: {}
+[25.301157] (-) TimerEvent: {}
+[25.401813] (-) TimerEvent: {}
+[25.502527] (-) TimerEvent: {}
+[25.603151] (-) TimerEvent: {}
+[25.703619] (-) TimerEvent: {}
+[25.804268] (-) TimerEvent: {}
+[25.904805] (-) TimerEvent: {}
+[26.005422] (-) TimerEvent: {}
+[26.105876] (-) TimerEvent: {}
+[26.206470] (-) TimerEvent: {}
+[26.306988] (-) TimerEvent: {}
+[26.407579] (-) TimerEvent: {}
+[26.508152] (-) TimerEvent: {}
+[26.608596] (-) TimerEvent: {}
+[26.709105] (-) TimerEvent: {}
+[26.809740] (-) TimerEvent: {}
+[26.910457] (-) TimerEvent: {}
+[27.011357] (-) TimerEvent: {}
+[27.112095] (-) TimerEvent: {}
+[27.212989] (-) TimerEvent: {}
+[27.313694] (-) TimerEvent: {}
+[27.414413] (-) TimerEvent: {}
+[27.515154] (-) TimerEvent: {}
+[27.615793] (-) TimerEvent: {}
+[27.716559] (-) TimerEvent: {}
+[27.817288] (-) TimerEvent: {}
+[27.917940] (-) TimerEvent: {}
+[28.018632] (-) TimerEvent: {}
+[28.119361] (-) TimerEvent: {}
+[28.220004] (-) TimerEvent: {}
+[28.320916] (-) TimerEvent: {}
+[28.421636] (-) TimerEvent: {}
+[28.522255] (-) TimerEvent: {}
+[28.622861] (-) TimerEvent: {}
+[28.723692] (-) TimerEvent: {}
+[28.824650] (-) TimerEvent: {}
+[28.925338] (-) TimerEvent: {}
+[29.025865] (-) TimerEvent: {}
+[29.126623] (-) TimerEvent: {}
+[29.227590] (-) TimerEvent: {}
+[29.328405] (-) TimerEvent: {}
+[29.429137] (-) TimerEvent: {}
+[29.529806] (-) TimerEvent: {}
+[29.630584] (-) TimerEvent: {}
+[29.731296] (-) TimerEvent: {}
+[29.832155] (-) TimerEvent: {}
+[29.932808] (-) TimerEvent: {}
+[30.033408] (-) TimerEvent: {}
+[30.134065] (-) TimerEvent: {}
+[30.234669] (-) TimerEvent: {}
+[30.335529] (-) TimerEvent: {}
+[30.436217] (-) TimerEvent: {}
+[30.536902] (-) TimerEvent: {}
+[30.637855] (-) TimerEvent: {}
+[30.738495] (-) TimerEvent: {}
+[30.838983] (-) TimerEvent: {}
+[30.939327] (-) TimerEvent: {}
+[31.039883] (-) TimerEvent: {}
+[31.140317] (-) TimerEvent: {}
+[31.240769] (-) TimerEvent: {}
+[31.341646] (-) TimerEvent: {}
+[31.442125] (-) TimerEvent: {}
+[31.542560] (-) TimerEvent: {}
+[31.642995] (-) TimerEvent: {}
+[31.743463] (-) TimerEvent: {}
+[31.843923] (-) TimerEvent: {}
+[31.944396] (-) TimerEvent: {}
+[32.044925] (-) TimerEvent: {}
+[32.145405] (-) TimerEvent: {}
+[32.245840] (-) TimerEvent: {}
+[32.346281] (-) TimerEvent: {}
+[32.446745] (-) TimerEvent: {}
+[32.547205] (-) TimerEvent: {}
+[32.647782] (-) TimerEvent: {}
+[32.748285] (-) TimerEvent: {}
+[32.848736] (-) TimerEvent: {}
+[32.949170] (-) TimerEvent: {}
+[33.049626] (-) TimerEvent: {}
+[33.150100] (-) TimerEvent: {}
+[33.250537] (-) TimerEvent: {}
+[33.350949] (-) TimerEvent: {}
+[33.451473] (-) TimerEvent: {}
+[33.551910] (-) TimerEvent: {}
+[33.652373] (-) TimerEvent: {}
+[33.752784] (-) TimerEvent: {}
+[33.853216] (-) TimerEvent: {}
+[33.953636] (-) TimerEvent: {}
+[34.054094] (-) TimerEvent: {}
+[34.154546] (-) TimerEvent: {}
+[34.255373] (-) TimerEvent: {}
+[34.355976] (-) TimerEvent: {}
+[34.456449] (-) TimerEvent: {}
+[34.556887] (-) TimerEvent: {}
+[34.657338] (-) TimerEvent: {}
+[34.757966] (-) TimerEvent: {}
+[34.858529] (-) TimerEvent: {}
+[34.958995] (-) TimerEvent: {}
+[35.059575] (-) TimerEvent: {}
+[35.160229] (-) TimerEvent: {}
+[35.260764] (-) TimerEvent: {}
+[35.361495] (-) TimerEvent: {}
+[35.462166] (-) TimerEvent: {}
+[35.562736] (-) TimerEvent: {}
+[35.663158] (-) TimerEvent: {}
+[35.763679] (-) TimerEvent: {}
+[35.864164] (-) TimerEvent: {}
+[35.964600] (-) TimerEvent: {}
+[36.065080] (-) TimerEvent: {}
+[36.165680] (-) TimerEvent: {}
+[36.266128] (-) TimerEvent: {}
+[36.366570] (-) TimerEvent: {}
+[36.467144] (-) TimerEvent: {}
+[36.567610] (-) TimerEvent: {}
+[36.668268] (-) TimerEvent: {}
+[36.768729] (-) TimerEvent: {}
+[36.869141] (-) TimerEvent: {}
+[36.969567] (-) TimerEvent: {}
+[37.069997] (-) TimerEvent: {}
+[37.170603] (-) TimerEvent: {}
+[37.271050] (-) TimerEvent: {}
+[37.371448] (-) TimerEvent: {}
+[37.471888] (-) TimerEvent: {}
+[37.572363] (-) TimerEvent: {}
+[37.672798] (-) TimerEvent: {}
+[37.773244] (-) TimerEvent: {}
+[37.873661] (-) TimerEvent: {}
+[37.974128] (-) TimerEvent: {}
+[38.074556] (-) TimerEvent: {}
+[38.174985] (-) TimerEvent: {}
+[38.275442] (-) TimerEvent: {}
+[38.375835] (-) TimerEvent: {}
+[38.476295] (-) TimerEvent: {}
+[38.576730] (-) TimerEvent: {}
+[38.677155] (-) TimerEvent: {}
+[38.777560] (-) TimerEvent: {}
+[38.877951] (-) TimerEvent: {}
+[38.978373] (-) TimerEvent: {}
+[39.078755] (-) TimerEvent: {}
+[39.179145] (-) TimerEvent: {}
+[39.279529] (-) TimerEvent: {}
+[39.379909] (-) TimerEvent: {}
+[39.480327] (-) TimerEvent: {}
+[39.580687] (-) TimerEvent: {}
+[39.681079] (-) TimerEvent: {}
+[39.781433] (-) TimerEvent: {}
+[39.881784] (-) TimerEvent: {}
+[39.982148] (-) TimerEvent: {}
+[40.082531] (-) TimerEvent: {}
+[40.182918] (-) TimerEvent: {}
+[40.283334] (-) TimerEvent: {}
+[40.383727] (-) TimerEvent: {}
+[40.484137] (-) TimerEvent: {}
+[40.584527] (-) TimerEvent: {}
+[40.684911] (-) TimerEvent: {}
+[40.785339] (-) TimerEvent: {}
+[40.885914] (-) TimerEvent: {}
+[40.986360] (-) TimerEvent: {}
+[41.086796] (-) TimerEvent: {}
+[41.187253] (-) TimerEvent: {}
+[41.287706] (-) TimerEvent: {}
+[41.388148] (-) TimerEvent: {}
+[41.488548] (-) TimerEvent: {}
+[41.588952] (-) TimerEvent: {}
+[41.689601] (-) TimerEvent: {}
+[41.789987] (-) TimerEvent: {}
+[41.890390] (-) TimerEvent: {}
+[41.942329] (velodyne_gazebo_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[41.942598] (velodyne_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[41.942727] (velodyne_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[41.942849] (velodyne_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[41.942969] (velodyne_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[41.943115] (velodyne_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[41.943243] (velodyne_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[41.943361] (velodyne_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[41.943478] (velodyne_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[41.943599] (velodyne_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[41.943717] (velodyne_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[41.943837] (velodyne_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/gazebo_ros/node.hpp:18\x1b[m\x1b[K,\n'}
+[41.943955] (velodyne_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.h:53\x1b[m\x1b[K,\n'}
+[41.944131] (velodyne_gazebo_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins/src/GazeboRosVelodyneLaser.cpp:35\x1b[m\x1b[K:\n'}
+[41.944266] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins/src/GazeboRosVelodyneLaser.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo::GazeboRosVelodyneLaser::Load(gazebo::sensors::SensorPtr, sdf::v9::ElementPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.944420] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins/src/GazeboRosVelodyneLaser.cpp:295:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects a matching \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 argument [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.944556] (velodyne_gazebo_plugins) StderrLine: {'line': b'  295 |   RCLCPP_INFO(ros_node_->get_logger(), \x1b[01;35m\x1b[K"Velodyne %slaser plugin ready"\x1b[m\x1b[K);\n'}
+[41.944683] (velodyne_gazebo_plugins) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.944810] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins/src/GazeboRosVelodyneLaser.cpp:295:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[41.944941] (velodyne_gazebo_plugins) StderrLine: {'line': b'  295 |   RCLCPP_INFO(ros_node_->get_logger(), "Velodyne \x1b[01;36m\x1b[K%s\x1b[m\x1b[Klaser plugin ready");\n'}
+[41.945099] (velodyne_gazebo_plugins) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[41.945240] (velodyne_gazebo_plugins) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[41.945362] (velodyne_gazebo_plugins) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[41.990535] (-) TimerEvent: {}
+[42.090904] (-) TimerEvent: {}
+[42.191296] (-) TimerEvent: {}
+[42.291680] (-) TimerEvent: {}
+[42.392084] (-) TimerEvent: {}
+[42.492452] (-) TimerEvent: {}
+[42.592831] (-) TimerEvent: {}
+[42.693237] (-) TimerEvent: {}
+[42.793627] (-) TimerEvent: {}
+[42.894005] (-) TimerEvent: {}
+[42.994403] (-) TimerEvent: {}
+[43.094779] (-) TimerEvent: {}
+[43.195159] (-) TimerEvent: {}
+[43.295543] (-) TimerEvent: {}
+[43.395921] (-) TimerEvent: {}
+[43.496313] (-) TimerEvent: {}
+[43.596680] (-) TimerEvent: {}
+[43.697090] (-) TimerEvent: {}
+[43.797468] (-) TimerEvent: {}
+[43.897834] (-) TimerEvent: {}
+[43.998181] (-) TimerEvent: {}
+[44.098520] (-) TimerEvent: {}
+[44.198869] (-) TimerEvent: {}
+[44.299285] (-) TimerEvent: {}
+[44.399810] (-) TimerEvent: {}
+[44.500241] (-) TimerEvent: {}
+[44.600574] (-) TimerEvent: {}
+[44.700912] (-) TimerEvent: {}
+[44.801255] (-) TimerEvent: {}
+[44.901576] (-) TimerEvent: {}
+[45.001878] (-) TimerEvent: {}
+[45.102204] (-) TimerEvent: {}
+[45.202612] (-) TimerEvent: {}
+[45.303055] (-) TimerEvent: {}
+[45.403404] (-) TimerEvent: {}
+[45.503766] (-) TimerEvent: {}
+[45.604128] (-) TimerEvent: {}
+[45.704489] (-) TimerEvent: {}
+[45.804866] (-) TimerEvent: {}
+[45.905254] (-) TimerEvent: {}
+[46.005619] (-) TimerEvent: {}
+[46.105978] (-) TimerEvent: {}
+[46.206343] (-) TimerEvent: {}
+[46.306719] (-) TimerEvent: {}
+[46.407111] (-) TimerEvent: {}
+[46.507491] (-) TimerEvent: {}
+[46.607877] (-) TimerEvent: {}
+[46.708261] (-) TimerEvent: {}
+[46.808638] (-) TimerEvent: {}
+[46.909026] (-) TimerEvent: {}
+[47.009422] (-) TimerEvent: {}
+[47.109777] (-) TimerEvent: {}
+[47.210132] (-) TimerEvent: {}
+[47.310488] (-) TimerEvent: {}
+[47.410841] (-) TimerEvent: {}
+[47.511211] (-) TimerEvent: {}
+[47.611575] (-) TimerEvent: {}
+[47.711935] (-) TimerEvent: {}
+[47.812424] (-) TimerEvent: {}
+[47.912846] (-) TimerEvent: {}
+[48.013562] (-) TimerEvent: {}
+[48.113991] (-) TimerEvent: {}
+[48.214454] (-) TimerEvent: {}
+[48.314890] (-) TimerEvent: {}
+[48.415389] (-) TimerEvent: {}
+[48.515898] (-) TimerEvent: {}
+[48.616410] (-) TimerEvent: {}
+[48.716833] (-) TimerEvent: {}
+[48.817295] (-) TimerEvent: {}
+[48.917805] (-) TimerEvent: {}
+[49.018294] (-) TimerEvent: {}
+[49.118700] (-) TimerEvent: {}
+[49.219124] (-) TimerEvent: {}
+[49.319541] (-) TimerEvent: {}
+[49.420219] (-) TimerEvent: {}
+[49.520701] (-) TimerEvent: {}
+[49.595791] (velodyne_gazebo_plugins) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_velodyne_laser.so\x1b[0m\n'}
+[49.620858] (-) TimerEvent: {}
+[49.721330] (-) TimerEvent: {}
+[49.821857] (-) TimerEvent: {}
+[49.922453] (-) TimerEvent: {}
+[50.023140] (-) TimerEvent: {}
+[50.123616] (-) TimerEvent: {}
+[50.224145] (-) TimerEvent: {}
+[50.324512] (-) TimerEvent: {}
+[50.424929] (-) TimerEvent: {}
+[50.525616] (-) TimerEvent: {}
+[50.626329] (-) TimerEvent: {}
+[50.727215] (-) TimerEvent: {}
+[50.828027] (-) TimerEvent: {}
+[50.928652] (-) TimerEvent: {}
+[51.029210] (-) TimerEvent: {}
+[51.130028] (-) TimerEvent: {}
+[51.230702] (-) TimerEvent: {}
+[51.331308] (-) TimerEvent: {}
+[51.432182] (-) TimerEvent: {}
+[51.532842] (-) TimerEvent: {}
+[51.633547] (-) TimerEvent: {}
+[51.734392] (-) TimerEvent: {}
+[51.835079] (-) TimerEvent: {}
+[51.935649] (-) TimerEvent: {}
+[52.036204] (-) TimerEvent: {}
+[52.136705] (-) TimerEvent: {}
+[52.188601] (velodyne_gazebo_plugins) StdoutLine: {'line': b'[100%] Built target gazebo_ros_velodyne_laser\n'}
+[52.214312] (velodyne_gazebo_plugins) CommandEnded: {'returncode': 0}
+[52.215426] (velodyne_gazebo_plugins) JobProgress: {'identifier': 'velodyne_gazebo_plugins', 'progress': 'install'}
+[52.216845] (velodyne_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins'], 'cwd': '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '179973'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/241583_1733342067013/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/241583_1733342067013'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[52.236850] (-) TimerEvent: {}
+[52.237637] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[52.238191] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.sh\n'}
+[52.238615] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.dsv\n'}
+[52.239208] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/velodyne_gazebo_plugins\n'}
+[52.239666] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/velodyne_gazebo_plugins\n'}
+[52.239957] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.sh\n'}
+[52.240251] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.dsv\n'}
+[52.240581] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.sh\n'}
+[52.240821] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.dsv\n'}
+[52.241081] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.bash\n'}
+[52.241299] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.sh\n'}
+[52.241523] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.zsh\n'}
+[52.241743] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.dsv\n'}
+[52.241952] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv\n'}
+[52.242236] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/ament_index/resource_index/packages/velodyne_gazebo_plugins\n'}
+[52.242545] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[52.242853] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[52.243124] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[52.243394] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake\n'}
+[52.243605] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig-version.cmake\n'}
+[52.243840] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.xml\n'}
+[52.244089] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/include\n'}
+[52.244332] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins\n'}
+[52.244495] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.h\n'}
+[52.314027] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so\n'}
+[52.323784] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so" to ""\n'}
+[52.328275] (velodyne_gazebo_plugins) CommandEnded: {'returncode': 0}
+[52.337270] (-) TimerEvent: {}
+[52.363888] (velodyne_gazebo_plugins) JobEnded: {'identifier': 'velodyne_gazebo_plugins', 'rc': 0}
+[52.365653] (velodyne_simulator) JobStarted: {'identifier': 'velodyne_simulator'}
+[52.385210] (velodyne_simulator) JobProgress: {'identifier': 'velodyne_simulator', 'progress': 'cmake'}
+[52.386755] (velodyne_simulator) Command: {'cmd': ['/usr/bin/cmake', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_simulator', '-DCMAKE_INSTALL_PREFIX=/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator'], 'cwd': '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_simulator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '179973'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/241583_1733342067013/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_simulator'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/241583_1733342067013'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description:/opt/ros/humble')]), 'shell': False}
+[52.437441] (-) TimerEvent: {}
+[52.537819] (-) TimerEvent: {}
+[52.638297] (-) TimerEvent: {}
+[52.739018] (-) TimerEvent: {}
+[52.839885] (-) TimerEvent: {}
+[52.940341] (-) TimerEvent: {}
+[53.040766] (-) TimerEvent: {}
+[53.141294] (-) TimerEvent: {}
+[53.207152] (velodyne_simulator) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[53.241476] (-) TimerEvent: {}
+[53.339855] (velodyne_simulator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[53.341617] (-) TimerEvent: {}
+[53.359443] (velodyne_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[53.441797] (-) TimerEvent: {}
+[53.504897] (velodyne_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[53.523807] (velodyne_simulator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[53.524448] (velodyne_simulator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[53.525401] (velodyne_simulator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[53.533189] (velodyne_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[53.542133] (-) TimerEvent: {}
+[53.642512] (-) TimerEvent: {}
+[53.681160] (velodyne_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[53.700923] (velodyne_simulator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[53.701576] (velodyne_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[53.702715] (velodyne_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[53.732062] (velodyne_simulator) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[53.742678] (-) TimerEvent: {}
+[53.843123] (-) TimerEvent: {}
+[53.943569] (-) TimerEvent: {}
+[54.044083] (-) TimerEvent: {}
+[54.144608] (-) TimerEvent: {}
+[54.245080] (-) TimerEvent: {}
+[54.345501] (-) TimerEvent: {}
+[54.445948] (-) TimerEvent: {}
+[54.546429] (-) TimerEvent: {}
+[54.646881] (-) TimerEvent: {}
+[54.720547] (velodyne_simulator) StdoutLine: {'line': b'-- Found Python3: /home/andrewkc/miniconda3/bin/python3 (found version "3.12.5") found components: Interpreter \n'}
+[54.747086] (-) TimerEvent: {}
+[54.847513] (-) TimerEvent: {}
+[54.948146] (-) TimerEvent: {}
+[54.992348] (velodyne_simulator) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[55.048319] (-) TimerEvent: {}
+[55.148754] (-) TimerEvent: {}
+[55.249185] (-) TimerEvent: {}
+[55.269407] (velodyne_simulator) StdoutLine: {'line': b'-- Configuring done\n'}
+[55.277338] (velodyne_simulator) StdoutLine: {'line': b'-- Generating done\n'}
+[55.282128] (velodyne_simulator) StdoutLine: {'line': b'-- Build files have been written to: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_simulator\n'}
+[55.291764] (velodyne_simulator) CommandEnded: {'returncode': 0}
+[55.293006] (velodyne_simulator) JobProgress: {'identifier': 'velodyne_simulator', 'progress': 'build'}
+[55.293782] (velodyne_simulator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_simulator', '--', '-j12', '-l12'], 'cwd': '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_simulator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '179973'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/241583_1733342067013/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_simulator'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/241583_1733342067013'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description:/opt/ros/humble')]), 'shell': False}
+[55.349340] (-) TimerEvent: {}
+[55.379005] (velodyne_simulator) CommandEnded: {'returncode': 0}
+[55.380508] (velodyne_simulator) JobProgress: {'identifier': 'velodyne_simulator', 'progress': 'install'}
+[55.380893] (velodyne_simulator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_simulator'], 'cwd': '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_simulator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '179973'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/241583_1733342067013/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/build/velodyne_simulator'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/241583_1733342067013'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins:/home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_description:/opt/ros/humble')]), 'shell': False}
+[55.395157] (velodyne_simulator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[55.395614] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/ament_index/resource_index/package_run_dependencies/velodyne_simulator\n'}
+[55.395985] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/ament_index/resource_index/parent_prefix_path/velodyne_simulator\n'}
+[55.396371] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/environment/ament_prefix_path.sh\n'}
+[55.396603] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/environment/ament_prefix_path.dsv\n'}
+[55.396832] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/environment/path.sh\n'}
+[55.397081] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/environment/path.dsv\n'}
+[55.397322] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/local_setup.bash\n'}
+[55.397560] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/local_setup.sh\n'}
+[55.397800] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/local_setup.zsh\n'}
+[55.397983] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/local_setup.dsv\n'}
+[55.398234] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.dsv\n'}
+[55.398559] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/ament_index/resource_index/packages/velodyne_simulator\n'}
+[55.398907] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/cmake/velodyne_simulatorConfig.cmake\n'}
+[55.399169] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/cmake/velodyne_simulatorConfig-version.cmake\n'}
+[55.399419] (velodyne_simulator) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/DRL_robot_navigation_ros2/install/velodyne_simulator/share/velodyne_simulator/package.xml\n'}
+[55.402891] (velodyne_simulator) CommandEnded: {'returncode': 0}
+[55.429849] (velodyne_simulator) JobEnded: {'identifier': 'velodyne_simulator', 'rc': 0}
+[55.431332] (-) EventReactorShutdown: {}

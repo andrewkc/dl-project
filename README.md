@@ -6,7 +6,7 @@
 
 ## 0. Clonar repositorio en Local o Raspery Pi
 ```
-https://github.com/andrewkc/dl-project.git
+git clone https://github.com/andrewkc/dl-project.git
 ```
 
 ## 1. Activar variables de entorno de ROS2

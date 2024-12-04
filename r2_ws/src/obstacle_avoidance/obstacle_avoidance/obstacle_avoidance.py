@@ -37,7 +37,8 @@ class Turtlebot3Obstacle(Node):
 
         if msg.ranges[0] < 0.425:
             # Retroceder
-            self.move.linear.x = -0.10
+            self.move.linear.x = -0.22 
+            #self.move.linear.x = -0.10
             #self.move.linear.x = -0.05
             self.move.angular.z = 0.0
             self.pub.publish(self.move)
@@ -45,8 +46,8 @@ class Turtlebot3Obstacle(Node):
 
             # Decidir dirección de giro
             if msg.ranges[right_index] <= msg.ranges[left_index]:
-                self.move.linear.x = 0.02
-                #self.move.linear.x = 0.0
+                self.move.linear.x = 0.0
+                #self.move.linear.x = 0.02
                 self.move.angular.z = -0.5
                 self.pub.publish(self.move)
                 self.get_clock().sleep_for(rclpy.time.Duration(seconds=1.0))
@@ -54,8 +55,8 @@ class Turtlebot3Obstacle(Node):
                 self.pub.publish(self.move)
                 self.get_logger().info(" -> right")
             else:
-                self.move.linear.x = 0.02
-                #self.move.linear.x = 0.0
+                self.move.linear.x = 0.0
+                #self.move.linear.x = 0.02
                 self.move.angular.z = 0.5
                 self.pub.publish(self.move)
                 self.get_clock().sleep_for(rclpy.time.Duration(seconds=1.0))
@@ -64,7 +65,8 @@ class Turtlebot3Obstacle(Node):
                 self.get_logger().info(" -> left")
 
             # Avanzar para evitar el obstáculo
-            self.move.linear.x = 0.10
+            self.move.linear.x = 0.22
+            #self.move.linear.x = 0.10
             #self.move.linear.x = 0.05
             self.move.angular.z = 0.0
             self.pub.publish(self.move)
@@ -73,7 +75,8 @@ class Turtlebot3Obstacle(Node):
                 self.get_clock().sleep_for(rclpy.time.Duration(seconds=0.1))
                 self.pub.publish(self.move)
         else:
-            self.move.linear.x = 0.10
+            self.move.linear.x = 0.22
+            #self.move.linear.x = 0.10
             #self.move.linear.x = 0.05
             self.move.angular.z = 0.0
             self.pub.publish(self.move)

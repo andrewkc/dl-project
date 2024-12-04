@@ -4,6 +4,11 @@
 * Correrlo en la Raspery Pi (1-4)
 * Opcional (simulación): Correrlo en Local (1-2) y luego el simulador
 
+## 0. Clonar repositorio en Local o Raspery Pi
+```
+https://github.com/andrewkc/dl-project.git
+```
+
 ## 1. Activar variables de entorno de ROS2
 ```
 source /opt/ros/humble/setup.bash

@@ -24,5 +24,9 @@ source ~/r2_ws/install/setup.bash
 ros2 run obstacle_avoidance obstacle_avoidance
 
 ```
-
+## 5. Kill node
+```
+# Ctrl + C
+ros2 lifecycle set /turtlebot3_obstacle shutdown
+```
 

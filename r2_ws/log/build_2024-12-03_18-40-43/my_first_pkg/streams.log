@@ -1,0 +1,27 @@
+[1.404s] Invoking command in '/home/andrewkc/r2_ws/src/my_first_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/andrewkc/r2_ws/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrewkc/r2_ws/install/my_first_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_pkg build --build-base /home/andrewkc/r2_ws/build/my_first_pkg/build install --record /home/andrewkc/r2_ws/build/my_first_pkg/install.log --single-version-externally-managed install_data
+[1.611s] /home/andrewkc/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.612s]   warnings.warn(msg)
+[1.754s] running egg_info
+[1.776s] writing ../../build/my_first_pkg/my_first_pkg.egg-info/PKG-INFO
+[1.777s] writing dependency_links to ../../build/my_first_pkg/my_first_pkg.egg-info/dependency_links.txt
+[1.777s] writing entry points to ../../build/my_first_pkg/my_first_pkg.egg-info/entry_points.txt
+[1.777s] writing requirements to ../../build/my_first_pkg/my_first_pkg.egg-info/requires.txt
+[1.777s] writing top-level names to ../../build/my_first_pkg/my_first_pkg.egg-info/top_level.txt
+[1.825s] reading manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[1.827s] writing manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[1.828s] running build
+[1.828s] running build_py
+[1.828s] copying my_first_pkg/minimal_publisher.py -> /home/andrewkc/r2_ws/build/my_first_pkg/build/lib/my_first_pkg
+[1.828s] copying my_first_pkg/__init__.py -> /home/andrewkc/r2_ws/build/my_first_pkg/build/lib/my_first_pkg
+[1.828s] running install
+[1.835s] running install_lib
+[1.859s] running install_data
+[1.859s] copying resource/my_first_pkg -> /home/andrewkc/r2_ws/install/my_first_pkg/share/ament_index/resource_index/packages
+[1.859s] copying package.xml -> /home/andrewkc/r2_ws/install/my_first_pkg/share/my_first_pkg
+[1.859s] running install_egg_info
+[1.884s] removing '/home/andrewkc/r2_ws/install/my_first_pkg/lib/python3.10/site-packages/my_first_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.884s] Copying ../../build/my_first_pkg/my_first_pkg.egg-info to /home/andrewkc/r2_ws/install/my_first_pkg/lib/python3.10/site-packages/my_first_pkg-0.0.0-py3.10.egg-info
+[1.885s] running install_scripts
+[2.076s] Installing minimal_publisher script to /home/andrewkc/r2_ws/install/my_first_pkg/lib/my_first_pkg
+[2.077s] writing list of installed files to '/home/andrewkc/r2_ws/build/my_first_pkg/install.log'
+[2.136s] Invoked command in '/home/andrewkc/r2_ws/src/my_first_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/andrewkc/r2_ws/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrewkc/r2_ws/install/my_first_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_pkg build --build-base /home/andrewkc/r2_ws/build/my_first_pkg/build install --record /home/andrewkc/r2_ws/build/my_first_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+[1.464s] Invoking command in '/home/andrewkc/r2_ws/src/obstacle_avoidance': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/andrewkc/r2_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrewkc/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_avoidance build --build-base /home/andrewkc/r2_ws/build/obstacle_avoidance/build install --record /home/andrewkc/r2_ws/build/obstacle_avoidance/install.log --single-version-externally-managed install_data
+[1.816s] running egg_info
+[1.838s] writing ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/PKG-INFO
+[1.839s] writing dependency_links to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/dependency_links.txt
+[1.839s] writing entry points to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/entry_points.txt
+[1.839s] writing requirements to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/requires.txt
+[1.839s] writing top-level names to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/top_level.txt
+[1.887s] reading manifest file '../../build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'
+[1.889s] writing manifest file '../../build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'
+[1.889s] running build
+[1.889s] running build_py
+[1.889s] copying obstacle_avoidance/obstacle_avoidance.py -> /home/andrewkc/r2_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance
+[1.890s] copying obstacle_avoidance/__init__.py -> /home/andrewkc/r2_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance
+[1.890s] running install
+[1.897s] running install_lib
+[1.921s] copying /home/andrewkc/r2_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance/obstacle_avoidance.py -> /home/andrewkc/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance
+[1.922s] byte-compiling /home/andrewkc/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance/obstacle_avoidance.py to obstacle_avoidance.cpython-310.pyc
+[1.922s] running install_data
+[1.923s] copying resource/obstacle_avoidance -> /home/andrewkc/r2_ws/install/obstacle_avoidance/share/ament_index/resource_index/packages
+[1.923s] copying package.xml -> /home/andrewkc/r2_ws/install/obstacle_avoidance/share/obstacle_avoidance
+[1.923s] running install_egg_info
+[1.949s] removing '/home/andrewkc/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance-0.0.0-py3.10.egg-info' (and everything under it)
+[1.949s] Copying ../../build/obstacle_avoidance/obstacle_avoidance.egg-info to /home/andrewkc/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance-0.0.0-py3.10.egg-info
+[1.951s] running install_scripts
+[2.143s] Installing obstacle_avoidance script to /home/andrewkc/r2_ws/install/obstacle_avoidance/lib/obstacle_avoidance
+[2.144s] writing list of installed files to '/home/andrewkc/r2_ws/build/obstacle_avoidance/install.log'
+[2.181s] Invoked command in '/home/andrewkc/r2_ws/src/obstacle_avoidance' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/andrewkc/r2_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrewkc/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_avoidance build --build-base /home/andrewkc/r2_ws/build/obstacle_avoidance/build install --record /home/andrewkc/r2_ws/build/obstacle_avoidance/install.log --single-version-externally-managed install_data

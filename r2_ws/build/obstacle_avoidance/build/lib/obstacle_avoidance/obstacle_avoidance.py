@@ -25,6 +25,10 @@ class Turtlebot3Obstacle(Node):
 
         # Objeto Twist para el movimiento del robot
         self.move = Twist()
+        
+        self.velocity = 0.05
+        
+        self.move.linear.x = self.velocity
 
     def callback(self, msg):
         self.get_logger().info(f'Front Range: {msg.ranges[0]}')
@@ -37,42 +41,7 @@ class Turtlebot3Obstacle(Node):
 
         if msg.ranges[0] < 0.425:
             # Retroceder
-            self.move.linear.x = -0.05
-            self.move.angular.z = 0.0
-            self.pub.publish(self.move)
-            self.get_clock().sleep_for(rclpy.time.Duration(seconds=1))
-
-            # Decidir dirección de giro
-            if msg.ranges[right_index] <= msg.ranges[left_index]:
-                self.move.linear.x = 0.0
-                self.move.angular.z = -0.5
-                self.pub.publish(self.move)
-                self.get_clock().sleep_for(rclpy.time.Duration(seconds=1.0))
-                self.move.angular.z = 0.0
-                self.pub.publish(self.move)
-                self.get_logger().info(" -> right")
-            else:
-                self.move.linear.x = 0.0
-                self.move.angular.z = 0.5
-                self.pub.publish(self.move)
-                self.get_clock().sleep_for(rclpy.time.Duration(seconds=1.0))
-                self.move.angular.z = 0.0
-                self.pub.publish(self.move)
-                self.get_logger().info(" -> left")
-
-            # Avanzar para evitar el obstáculo
-            self.move.linear.x = 0.05
-            self.move.angular.z = 0.0
-            self.pub.publish(self.move)
-
-            while msg.ranges[0] < 0.2:
-                self.get_clock().sleep_for(rclpy.time.Duration(seconds=0.1))
-                self.pub.publish(self.move)
-        else:
-            self.move.linear.x = 0.05
-            self.move.angular.z = 0.0
-            self.pub.publish(self.move)
-
+            self.move.linear.x = 0.0
 
 def main(args=None):
     rclpy.init(args=args)

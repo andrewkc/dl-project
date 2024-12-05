@@ -9,6 +9,7 @@ setup.py
 ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/top_level.txt
 ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/zip-safe
 obstacle_avoidance/__init__.py
+obstacle_avoidance/obstacle_avoidance copy.py
 obstacle_avoidance/obstacle_avoidance.py
 resource/obstacle_avoidance
 test/test_copyright.py

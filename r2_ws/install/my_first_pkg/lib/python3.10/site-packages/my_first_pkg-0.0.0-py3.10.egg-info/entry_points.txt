@@ -1,2 +1,0 @@
-[console_scripts]
-minimal_publisher = my_first_pkg.minimal_publisher:main

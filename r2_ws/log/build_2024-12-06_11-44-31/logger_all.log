@@ -1,0 +1,210 @@
+[0.561s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.561s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7836b0406fe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7836b04065c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7836b04065c0>>, mixin_verb=('build',))
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.645s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/andrewkc/Projects/dl-project/r2_ws'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_avoidance) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_avoidance) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_avoidance) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_avoidance) by extensions ['colcon_pkg']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_avoidance) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_avoidance) by extensions ['colcon_meta']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_avoidance) by extension 'colcon_meta'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_avoidance) by extensions ['ros']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_avoidance) by extension 'ros'
+[0.675s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obstacle_avoidance' with type 'ros.ament_python' and name 'obstacle_avoidance'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore_ament_install'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_pkg']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_pkg'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_meta']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_meta'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ros']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ros'
+[0.685s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.835s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 400 installed packages in /opt/ros/humble
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'obstacle_avoidance' build argument 'cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'obstacle_avoidance' build argument 'cmake_target' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'obstacle_avoidance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'obstacle_avoidance' build argument 'cmake_clean_cache' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'obstacle_avoidance' build argument 'cmake_clean_first' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'obstacle_avoidance' build argument 'cmake_force_configure' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'obstacle_avoidance' build argument 'ament_cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'obstacle_avoidance' build argument 'catkin_cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'obstacle_avoidance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.936s] DEBUG:colcon.colcon_core.verb:Building package 'obstacle_avoidance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance', 'merge_install': False, 'path': '/home/andrewkc/Projects/dl-project/r2_ws/src/obstacle_avoidance', 'symlink_install': False, 'test_result_base': None}
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.937s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam', 'merge_install': False, 'path': '/home/andrewkc/Projects/dl-project/r2_ws/src/usb_cam', 'symlink_install': False, 'test_result_base': None}
+[0.937s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.939s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.939s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/andrewkc/Projects/dl-project/r2_ws/src/obstacle_avoidance' with build type 'ament_python'
+[0.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_avoidance', 'ament_prefix_path')
+[0.963s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/obstacle_avoidance/hook/ament_prefix_path.ps1'
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/obstacle_avoidance/hook/ament_prefix_path.dsv'
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/obstacle_avoidance/hook/ament_prefix_path.sh'
+[0.991s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.991s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.997s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andrewkc/Projects/dl-project/r2_ws/src/usb_cam' with build type 'ament_cmake'
+[0.997s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andrewkc/Projects/dl-project/r2_ws/src/usb_cam'
+[0.998s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.998s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.311s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/andrewkc/Projects/dl-project/r2_ws/src/obstacle_avoidance'
+[1.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/andrewkc/Projects/dl-project/r2_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam
+[9.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrewkc/Projects/dl-project/r2_ws/src/obstacle_avoidance': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_avoidance build --build-base /home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/build install --record /home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/install.log --single-version-externally-managed install_data
+[10.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrewkc/Projects/dl-project/r2_ws/src/obstacle_avoidance' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_avoidance build --build-base /home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/build install --record /home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/install.log --single-version-externally-managed install_data
+[10.707s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance' for CMake module files
+[10.708s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance' for CMake config files
+[10.710s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/lib'
+[10.711s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/bin'
+[10.711s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/lib/pkgconfig/obstacle_avoidance.pc'
+[10.711s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages'
+[10.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_avoidance', 'pythonpath')
+[10.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/obstacle_avoidance/hook/pythonpath.ps1'
+[10.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/obstacle_avoidance/hook/pythonpath.dsv'
+[10.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/obstacle_avoidance/hook/pythonpath.sh'
+[10.715s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/bin'
+[10.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_avoidance)
+[10.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.ps1'
+[10.747s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.dsv'
+[10.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.sh'
+[10.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.bash'
+[10.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.zsh'
+[10.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/colcon-core/packages/obstacle_avoidance)
+[16.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/andrewkc/Projects/dl-project/r2_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam
+[16.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam -- -j12 -l12
+[32.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam -- -j12 -l12
+[32.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam
+[32.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[32.134s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam' for CMake module files
+[32.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam
+[32.135s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam' for CMake config files
+[32.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[32.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[32.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[32.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[32.137s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/lib'
+[32.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[32.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[32.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[32.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[32.138s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/bin'
+[32.138s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[32.139s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/lib/python3.10/site-packages'
+[32.139s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/bin'
+[32.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/package.ps1'
+[32.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/package.dsv'
+[32.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/package.sh'
+[32.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/package.bash'
+[32.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/package.zsh'
+[32.141s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/colcon-core/packages/usb_cam)
+[32.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[32.142s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam' for CMake module files
+[32.142s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam' for CMake config files
+[32.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[32.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[32.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[32.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[32.155s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/lib'
+[32.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[32.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[32.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[32.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[32.157s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/bin'
+[32.157s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[32.157s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/lib/python3.10/site-packages'
+[32.157s] Level 1:colcon.colcon_core.environment:checking '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/bin'
+[32.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/package.ps1'
+[32.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/package.dsv'
+[32.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/package.sh'
+[32.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/package.bash'
+[32.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/package.zsh'
+[32.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/colcon-core/packages/usb_cam)
+[32.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[32.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[32.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[32.160s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[32.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[32.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[32.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[32.261s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[32.278s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[32.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andrewkc/Projects/dl-project/r2_ws/install/local_setup.ps1'
+[32.314s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andrewkc/Projects/dl-project/r2_ws/install/_local_setup_util_ps1.py'
+[32.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andrewkc/Projects/dl-project/r2_ws/install/setup.ps1'
+[32.335s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andrewkc/Projects/dl-project/r2_ws/install/local_setup.sh'
+[32.358s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andrewkc/Projects/dl-project/r2_ws/install/_local_setup_util_sh.py'
+[32.359s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andrewkc/Projects/dl-project/r2_ws/install/setup.sh'
+[32.374s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andrewkc/Projects/dl-project/r2_ws/install/local_setup.bash'
+[32.396s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andrewkc/Projects/dl-project/r2_ws/install/setup.bash'
+[32.398s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andrewkc/Projects/dl-project/r2_ws/install/local_setup.zsh'
+[32.417s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andrewkc/Projects/dl-project/r2_ws/install/setup.zsh'

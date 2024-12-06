@@ -1,0 +1,484 @@
+[0.000000] (-) TimerEvent: {}
+[0.001056] (obstacle_avoidance) JobQueued: {'identifier': 'obstacle_avoidance', 'dependencies': OrderedDict()}
+[0.001497] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.001598] (obstacle_avoidance) JobStarted: {'identifier': 'obstacle_avoidance'}
+[0.059360] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.099386] (-) TimerEvent: {}
+[0.199969] (-) TimerEvent: {}
+[0.300490] (-) TimerEvent: {}
+[0.379388] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[0.380276] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '/home/andrewkc/Projects/dl-project/r2_ws/src/usb_cam', '-DCMAKE_INSTALL_PREFIX=/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam'], 'cwd': '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/r2_ws/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '506468'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/506788_1733502668004/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/506788_1733502668004'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.400652] (-) TimerEvent: {}
+[0.501189] (-) TimerEvent: {}
+[0.601787] (-) TimerEvent: {}
+[0.702389] (-) TimerEvent: {}
+[0.803123] (-) TimerEvent: {}
+[0.903750] (-) TimerEvent: {}
+[1.004496] (-) TimerEvent: {}
+[1.105090] (-) TimerEvent: {}
+[1.205768] (-) TimerEvent: {}
+[1.306435] (-) TimerEvent: {}
+[1.407184] (-) TimerEvent: {}
+[1.507830] (-) TimerEvent: {}
+[1.608450] (-) TimerEvent: {}
+[1.708941] (-) TimerEvent: {}
+[1.809591] (-) TimerEvent: {}
+[1.910072] (-) TimerEvent: {}
+[2.010641] (-) TimerEvent: {}
+[2.111294] (-) TimerEvent: {}
+[2.212032] (-) TimerEvent: {}
+[2.312671] (-) TimerEvent: {}
+[2.413258] (-) TimerEvent: {}
+[2.513748] (-) TimerEvent: {}
+[2.614217] (-) TimerEvent: {}
+[2.714870] (-) TimerEvent: {}
+[2.815538] (-) TimerEvent: {}
+[2.916166] (-) TimerEvent: {}
+[3.017011] (-) TimerEvent: {}
+[3.117773] (-) TimerEvent: {}
+[3.218475] (-) TimerEvent: {}
+[3.319162] (-) TimerEvent: {}
+[3.419769] (-) TimerEvent: {}
+[3.520355] (-) TimerEvent: {}
+[3.620836] (-) TimerEvent: {}
+[3.721465] (-) TimerEvent: {}
+[3.821957] (-) TimerEvent: {}
+[3.830075] (usb_cam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.922425] (-) TimerEvent: {}
+[4.023265] (-) TimerEvent: {}
+[4.124213] (-) TimerEvent: {}
+[4.224908] (-) TimerEvent: {}
+[4.325582] (-) TimerEvent: {}
+[4.426428] (-) TimerEvent: {}
+[4.527201] (-) TimerEvent: {}
+[4.628106] (-) TimerEvent: {}
+[4.728885] (-) TimerEvent: {}
+[4.829590] (-) TimerEvent: {}
+[4.930376] (-) TimerEvent: {}
+[5.031134] (-) TimerEvent: {}
+[5.131863] (-) TimerEvent: {}
+[5.232577] (-) TimerEvent: {}
+[5.333543] (-) TimerEvent: {}
+[5.434290] (-) TimerEvent: {}
+[5.535055] (-) TimerEvent: {}
+[5.635815] (-) TimerEvent: {}
+[5.736798] (-) TimerEvent: {}
+[5.837468] (-) TimerEvent: {}
+[5.938205] (-) TimerEvent: {}
+[6.038966] (-) TimerEvent: {}
+[6.139660] (-) TimerEvent: {}
+[6.240449] (-) TimerEvent: {}
+[6.341337] (-) TimerEvent: {}
+[6.442052] (-) TimerEvent: {}
+[6.538852] (usb_cam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.542184] (-) TimerEvent: {}
+[6.642956] (-) TimerEvent: {}
+[6.710329] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.743190] (-) TimerEvent: {}
+[6.843897] (-) TimerEvent: {}
+[6.944594] (-) TimerEvent: {}
+[7.045331] (-) TimerEvent: {}
+[7.146074] (-) TimerEvent: {}
+[7.246745] (-) TimerEvent: {}
+[7.347571] (-) TimerEvent: {}
+[7.448308] (-) TimerEvent: {}
+[7.549241] (-) TimerEvent: {}
+[7.649967] (-) TimerEvent: {}
+[7.750674] (-) TimerEvent: {}
+[7.837070] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.850632] (usb_cam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.851028] (-) TimerEvent: {}
+[7.852581] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.884546] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.890961] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.951253] (-) TimerEvent: {}
+[8.051825] (-) TimerEvent: {}
+[8.142094] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.151963] (-) TimerEvent: {}
+[8.154131] (usb_cam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.154863] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.155999] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.237008] (usb_cam) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[8.252130] (-) TimerEvent: {}
+[8.352873] (-) TimerEvent: {}
+[8.453558] (-) TimerEvent: {}
+[8.554177] (-) TimerEvent: {}
+[8.654812] (-) TimerEvent: {}
+[8.755394] (-) TimerEvent: {}
+[8.856016] (-) TimerEvent: {}
+[8.918914] (obstacle_avoidance) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/obstacle_avoidance', 'build', '--build-base', '/home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/build', 'install', '--record', '/home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/andrewkc/Projects/dl-project/r2_ws/src/obstacle_avoidance', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'andrewkc', 'WARP_HONOR_PS1': '0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:', 'HOME': '/home/andrewkc', 'OLDPWD': '/home/andrewkc/Projects/dl-project/r2_ws/src', 'CONDA_SHLVL': '1', 'DESKTOP_SESSION': 'pop', 'TERM_PROGRAM_VERSION': 'v0.2024.11.19.08.02.stable_03', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/dev.warp.Warp.desktop', 'WARP_USE_SSH_WRAPPER': '1', 'GNOME_SHELL_SESSION_MODE': 'pop', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '3806', 'FNM_ARCH': 'x64', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SYSTEMD_EXEC_PID': '3965', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '506468', '_CE_M': '', 'CONDA_CHANGEPS1': 'false', 'FNM_LOGLEVEL': 'info', 'FNM_VERSION_FILE_STRATEGY': 'local', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'andrewkc', 'JOURNAL_STREAM': '9:27803', '_': '/usr/bin/colcon', 'FNM_NODE_DIST_MIRROR': 'https://nodejs.org/dist', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'SSH_SOCKET_DIR': '~/.ssh', 'TERM': 'xterm-256color', 'USERNAME': 'andrewkc', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WARP_IS_LOCAL_SHELL_SESSION': '1', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/506788_1733502668004/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin', 'INVOCATION_ID': 'a09862d932f8420699e0cbd51fe7d504', 'SESSION_MANAGER': 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'pop:GNOME', 'TERM_PROGRAM': 'WarpTerminal', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'pop', 'XMODIFIERS': '@im=ibus', 'FNM_DIR': '/home/andrewkc/.local/share/fnm', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'CONDA_PYTHON_EXE': '/home/andrewkc/miniconda3/bin/python', 'FNM_RESOLVE_ENGINES': 'false', 'XML_CATALOG_FILES': 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'pop', 'QT_ACCESSIBILITY': '1', 'CONDA_DEFAULT_ENV': 'base', 'GJS_DEBUG_OUTPUT': 'stderr', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance', 'FNM_MULTISHELL_PATH': '/run/user/1000/fnm_multishells/506788_1733502668004', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-pop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CONDA_EXE': '/home/andrewkc/miniconda3/bin/conda', 'PYTHONPATH': '/home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'FNM_COREPACK_ENABLED': 'false', 'CONDA_PREFIX': '/home/andrewkc/miniconda3', 'COLCON': '1'}, 'shell': False}
+[8.956203] (-) TimerEvent: {}
+[9.056680] (-) TimerEvent: {}
+[9.157095] (-) TimerEvent: {}
+[9.257501] (-) TimerEvent: {}
+[9.272722] (obstacle_avoidance) StdoutLine: {'line': b'running egg_info\n'}
+[9.295148] (obstacle_avoidance) StdoutLine: {'line': b'writing ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/PKG-INFO\n'}
+[9.295811] (obstacle_avoidance) StdoutLine: {'line': b'writing dependency_links to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/dependency_links.txt\n'}
+[9.296501] (obstacle_avoidance) StdoutLine: {'line': b'writing entry points to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/entry_points.txt\n'}
+[9.296849] (obstacle_avoidance) StdoutLine: {'line': b'writing requirements to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/requires.txt\n'}
+[9.297020] (obstacle_avoidance) StdoutLine: {'line': b'writing top-level names to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/top_level.txt\n'}
+[9.343745] (obstacle_avoidance) StdoutLine: {'line': b"reading manifest file '../../build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'\n"}
+[9.356998] (obstacle_avoidance) StdoutLine: {'line': b"writing manifest file '../../build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'\n"}
+[9.357329] (obstacle_avoidance) StdoutLine: {'line': b'running build\n'}
+[9.357526] (-) TimerEvent: {}
+[9.357746] (obstacle_avoidance) StdoutLine: {'line': b'running build_py\n'}
+[9.357983] (obstacle_avoidance) StdoutLine: {'line': b'copying obstacle_avoidance/obstacle_avoidance.py -> /home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance\n'}
+[9.358143] (obstacle_avoidance) StdoutLine: {'line': b'copying obstacle_avoidance/obstacle_avoidance copy.py -> /home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance\n'}
+[9.358377] (obstacle_avoidance) StdoutLine: {'line': b'copying obstacle_avoidance/__init__.py -> /home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance\n'}
+[9.358612] (obstacle_avoidance) StdoutLine: {'line': b'running install\n'}
+[9.365217] (obstacle_avoidance) StdoutLine: {'line': b'running install_lib\n'}
+[9.387946] (obstacle_avoidance) StdoutLine: {'line': b'copying /home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance/obstacle_avoidance.py -> /home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance\n'}
+[9.388964] (obstacle_avoidance) StdoutLine: {'line': b'byte-compiling /home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance/obstacle_avoidance.py to obstacle_avoidance.cpython-310.pyc\n'}
+[9.389858] (obstacle_avoidance) StdoutLine: {'line': b'running install_data\n'}
+[9.390258] (obstacle_avoidance) StdoutLine: {'line': b'copying resource/obstacle_avoidance -> /home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/ament_index/resource_index/packages\n'}
+[9.390516] (obstacle_avoidance) StdoutLine: {'line': b'copying package.xml -> /home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/share/obstacle_avoidance\n'}
+[9.390790] (obstacle_avoidance) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.414835] (obstacle_avoidance) StdoutLine: {'line': b"removing '/home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.415392] (obstacle_avoidance) StdoutLine: {'line': b'Copying ../../build/obstacle_avoidance/obstacle_avoidance.egg-info to /home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance-0.0.0-py3.10.egg-info\n'}
+[9.449222] (obstacle_avoidance) StdoutLine: {'line': b'running install_scripts\n'}
+[9.457739] (-) TimerEvent: {}
+[9.558154] (-) TimerEvent: {}
+[9.647198] (obstacle_avoidance) StdoutLine: {'line': b'Installing obstacle_avoidance script to /home/andrewkc/Projects/dl-project/r2_ws/install/obstacle_avoidance/lib/obstacle_avoidance\n'}
+[9.647836] (obstacle_avoidance) StdoutLine: {'line': b"writing list of installed files to '/home/andrewkc/Projects/dl-project/r2_ws/build/obstacle_avoidance/install.log'\n"}
+[9.658324] (-) TimerEvent: {}
+[9.689108] (obstacle_avoidance) CommandEnded: {'returncode': 0}
+[9.702358] (usb_cam) StdoutLine: {'line': b'-- Found Python3: /home/andrewkc/miniconda3/bin/python3 (found version "3.12.5") found components: Interpreter \n'}
+[9.758473] (-) TimerEvent: {}
+[9.858960] (-) TimerEvent: {}
+[9.868213] (obstacle_avoidance) JobEnded: {'identifier': 'obstacle_avoidance', 'rc': 0}
+[9.959136] (-) TimerEvent: {}
+[10.059585] (-) TimerEvent: {}
+[10.160077] (-) TimerEvent: {}
+[10.260520] (-) TimerEvent: {}
+[10.360950] (-) TimerEvent: {}
+[10.461365] (-) TimerEvent: {}
+[10.561808] (-) TimerEvent: {}
+[10.662303] (-) TimerEvent: {}
+[10.762788] (-) TimerEvent: {}
+[10.863225] (-) TimerEvent: {}
+[10.963716] (-) TimerEvent: {}
+[11.008910] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[11.042219] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.063852] (-) TimerEvent: {}
+[11.105186] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[11.163995] (-) TimerEvent: {}
+[11.187465] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.255981] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.264104] (-) TimerEvent: {}
+[11.364607] (-) TimerEvent: {}
+[11.465051] (-) TimerEvent: {}
+[11.506671] (usb_cam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.516170] (usb_cam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.565206] (-) TimerEvent: {}
+[11.665656] (-) TimerEvent: {}
+[11.766127] (-) TimerEvent: {}
+[11.866574] (-) TimerEvent: {}
+[11.967057] (-) TimerEvent: {}
+[12.067515] (-) TimerEvent: {}
+[12.168030] (-) TimerEvent: {}
+[12.246734] (usb_cam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[12.268171] (-) TimerEvent: {}
+[12.306293] (usb_cam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.368312] (-) TimerEvent: {}
+[12.391750] (usb_cam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.468484] (-) TimerEvent: {}
+[12.515495] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.568602] (-) TimerEvent: {}
+[12.668933] (-) TimerEvent: {}
+[12.769849] (-) TimerEvent: {}
+[12.870374] (-) TimerEvent: {}
+[12.970820] (-) TimerEvent: {}
+[13.071254] (-) TimerEvent: {}
+[13.114632] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.115176] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.171389] (-) TimerEvent: {}
+[13.271787] (-) TimerEvent: {}
+[13.301021] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[13.303644] (usb_cam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.371936] (-) TimerEvent: {}
+[13.472396] (-) TimerEvent: {}
+[13.572839] (-) TimerEvent: {}
+[13.673559] (-) TimerEvent: {}
+[13.774177] (-) TimerEvent: {}
+[13.874619] (-) TimerEvent: {}
+[13.975071] (-) TimerEvent: {}
+[14.075506] (-) TimerEvent: {}
+[14.176007] (-) TimerEvent: {}
+[14.276431] (-) TimerEvent: {}
+[14.376854] (-) TimerEvent: {}
+[14.379452] (usb_cam) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[14.388880] (usb_cam) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[14.390148] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[14.476981] (-) TimerEvent: {}
+[14.481742] (usb_cam) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[14.564468] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[14.577099] (-) TimerEvent: {}
+[14.595788] (usb_cam) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[14.677235] (-) TimerEvent: {}
+[14.677608] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[14.777377] (-) TimerEvent: {}
+[14.810188] (usb_cam) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[14.877522] (-) TimerEvent: {}
+[14.931822] (usb_cam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.977829] (-) TimerEvent: {}
+[15.078461] (-) TimerEvent: {}
+[15.179156] (-) TimerEvent: {}
+[15.243838] (usb_cam) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[15.272044] (usb_cam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[15.279295] (-) TimerEvent: {}
+[15.283440] (usb_cam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[15.283899] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/andrewkc/Projects/dl-project/r2_ws/src/usb_cam/include\n'}
+[15.284154] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[15.295220] (usb_cam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[15.295520] (usb_cam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[15.297438] (usb_cam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[15.300960] (usb_cam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.302940] (usb_cam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[15.313919] (usb_cam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.314214] (usb_cam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.316245] (usb_cam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.340780] (usb_cam) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.379472] (-) TimerEvent: {}
+[15.451524] (usb_cam) StdoutLine: {'line': b'-- Generating done\n'}
+[15.468083] (usb_cam) StdoutLine: {'line': b'-- Build files have been written to: /home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam\n'}
+[15.479931] (-) TimerEvent: {}
+[15.486599] (usb_cam) CommandEnded: {'returncode': 0}
+[15.487706] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[15.488612] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam', '--', '-j12', '-l12'], 'cwd': '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/r2_ws/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '506468'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/506788_1733502668004/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/506788_1733502668004'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.580057] (-) TimerEvent: {}
+[15.588427] (usb_cam) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o\x1b[0m\n'}
+[15.588764] (usb_cam) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o\x1b[0m\n'}
+[15.590087] (usb_cam) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[15.590238] (usb_cam) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[15.680226] (-) TimerEvent: {}
+[15.780664] (-) TimerEvent: {}
+[15.881134] (-) TimerEvent: {}
+[15.981611] (-) TimerEvent: {}
+[16.082346] (-) TimerEvent: {}
+[16.183038] (-) TimerEvent: {}
+[16.283610] (-) TimerEvent: {}
+[16.384083] (-) TimerEvent: {}
+[16.484529] (-) TimerEvent: {}
+[16.584987] (-) TimerEvent: {}
+[16.685393] (-) TimerEvent: {}
+[16.785844] (-) TimerEvent: {}
+[16.886485] (-) TimerEvent: {}
+[16.987032] (-) TimerEvent: {}
+[17.087638] (-) TimerEvent: {}
+[17.188343] (-) TimerEvent: {}
+[17.289142] (-) TimerEvent: {}
+[17.389743] (-) TimerEvent: {}
+[17.490326] (-) TimerEvent: {}
+[17.591010] (-) TimerEvent: {}
+[17.691538] (-) TimerEvent: {}
+[17.791991] (-) TimerEvent: {}
+[17.892421] (-) TimerEvent: {}
+[17.992925] (-) TimerEvent: {}
+[18.093399] (-) TimerEvent: {}
+[18.193930] (-) TimerEvent: {}
+[18.294410] (-) TimerEvent: {}
+[18.394935] (-) TimerEvent: {}
+[18.495428] (-) TimerEvent: {}
+[18.593848] (usb_cam) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[18.595535] (-) TimerEvent: {}
+[18.695891] (-) TimerEvent: {}
+[18.740411] (usb_cam) StdoutLine: {'line': b'[ 35%] Built target gtest_main\n'}
+[18.796038] (-) TimerEvent: {}
+[18.896508] (-) TimerEvent: {}
+[18.997019] (-) TimerEvent: {}
+[19.097447] (-) TimerEvent: {}
+[19.197880] (-) TimerEvent: {}
+[19.298469] (-) TimerEvent: {}
+[19.398934] (-) TimerEvent: {}
+[19.499377] (-) TimerEvent: {}
+[19.599824] (-) TimerEvent: {}
+[19.700256] (-) TimerEvent: {}
+[19.800714] (-) TimerEvent: {}
+[19.901159] (-) TimerEvent: {}
+[20.001618] (-) TimerEvent: {}
+[20.102234] (-) TimerEvent: {}
+[20.202664] (-) TimerEvent: {}
+[20.303127] (-) TimerEvent: {}
+[20.403576] (-) TimerEvent: {}
+[20.504061] (-) TimerEvent: {}
+[20.604502] (-) TimerEvent: {}
+[20.693270] (usb_cam) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam.so\x1b[0m\n'}
+[20.704665] (-) TimerEvent: {}
+[20.805125] (-) TimerEvent: {}
+[20.905551] (-) TimerEvent: {}
+[21.005999] (-) TimerEvent: {}
+[21.106420] (-) TimerEvent: {}
+[21.206860] (-) TimerEvent: {}
+[21.307448] (-) TimerEvent: {}
+[21.408173] (-) TimerEvent: {}
+[21.508599] (-) TimerEvent: {}
+[21.609058] (-) TimerEvent: {}
+[21.709472] (-) TimerEvent: {}
+[21.809958] (-) TimerEvent: {}
+[21.910437] (-) TimerEvent: {}
+[22.010953] (-) TimerEvent: {}
+[22.064928] (usb_cam) StdoutLine: {'line': b'[ 42%] Built target usb_cam\n'}
+[22.108523] (usb_cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o\x1b[0m\n'}
+[22.111118] (-) TimerEvent: {}
+[22.158453] (usb_cam) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[22.211247] (-) TimerEvent: {}
+[22.277156] (usb_cam) StdoutLine: {'line': b'[ 57%] Built target gtest\n'}
+[22.311392] (-) TimerEvent: {}
+[22.314475] (usb_cam) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o\x1b[0m\n'}
+[22.316491] (usb_cam) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o\x1b[0m\n'}
+[22.411515] (-) TimerEvent: {}
+[22.511889] (-) TimerEvent: {}
+[22.539922] (usb_cam) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable usb_cam_node_exe\x1b[0m\n'}
+[22.612056] (-) TimerEvent: {}
+[22.712496] (-) TimerEvent: {}
+[22.812961] (-) TimerEvent: {}
+[22.913401] (-) TimerEvent: {}
+[23.013825] (-) TimerEvent: {}
+[23.114274] (-) TimerEvent: {}
+[23.214720] (-) TimerEvent: {}
+[23.315122] (-) TimerEvent: {}
+[23.415521] (-) TimerEvent: {}
+[23.516006] (-) TimerEvent: {}
+[23.616498] (-) TimerEvent: {}
+[23.716954] (-) TimerEvent: {}
+[23.793908] (usb_cam) StdoutLine: {'line': b'[ 78%] Built target usb_cam_node_exe\n'}
+[23.817118] (-) TimerEvent: {}
+[23.917552] (-) TimerEvent: {}
+[24.017998] (-) TimerEvent: {}
+[24.082553] (usb_cam) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable test_usb_cam_utils\x1b[0m\n'}
+[24.118162] (-) TimerEvent: {}
+[24.218589] (-) TimerEvent: {}
+[24.319127] (-) TimerEvent: {}
+[24.382209] (usb_cam) StdoutLine: {'line': b'[ 85%] Built target test_usb_cam_utils\n'}
+[24.419281] (-) TimerEvent: {}
+[24.497669] (usb_cam) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable test_pixel_formats\x1b[0m\n'}
+[24.519405] (-) TimerEvent: {}
+[24.619805] (-) TimerEvent: {}
+[24.720223] (-) TimerEvent: {}
+[24.759731] (usb_cam) StdoutLine: {'line': b'[ 92%] Built target test_pixel_formats\n'}
+[24.820396] (-) TimerEvent: {}
+[24.920983] (-) TimerEvent: {}
+[25.021415] (-) TimerEvent: {}
+[25.121848] (-) TimerEvent: {}
+[25.222289] (-) TimerEvent: {}
+[25.322760] (-) TimerEvent: {}
+[25.423203] (-) TimerEvent: {}
+[25.523641] (-) TimerEvent: {}
+[25.624110] (-) TimerEvent: {}
+[25.724545] (-) TimerEvent: {}
+[25.825003] (-) TimerEvent: {}
+[25.925446] (-) TimerEvent: {}
+[26.025913] (-) TimerEvent: {}
+[26.126355] (-) TimerEvent: {}
+[26.226968] (-) TimerEvent: {}
+[26.327466] (-) TimerEvent: {}
+[26.427950] (-) TimerEvent: {}
+[26.528391] (-) TimerEvent: {}
+[26.628798] (-) TimerEvent: {}
+[26.729232] (-) TimerEvent: {}
+[26.829669] (-) TimerEvent: {}
+[26.930143] (-) TimerEvent: {}
+[27.030586] (-) TimerEvent: {}
+[27.131060] (-) TimerEvent: {}
+[27.231471] (-) TimerEvent: {}
+[27.331909] (-) TimerEvent: {}
+[27.432448] (-) TimerEvent: {}
+[27.532909] (-) TimerEvent: {}
+[27.633357] (-) TimerEvent: {}
+[27.733804] (-) TimerEvent: {}
+[27.834216] (-) TimerEvent: {}
+[27.934821] (-) TimerEvent: {}
+[28.035269] (-) TimerEvent: {}
+[28.135749] (-) TimerEvent: {}
+[28.236191] (-) TimerEvent: {}
+[28.336633] (-) TimerEvent: {}
+[28.437090] (-) TimerEvent: {}
+[28.537538] (-) TimerEvent: {}
+[28.638001] (-) TimerEvent: {}
+[28.738435] (-) TimerEvent: {}
+[28.838933] (-) TimerEvent: {}
+[28.939375] (-) TimerEvent: {}
+[29.039814] (-) TimerEvent: {}
+[29.140253] (-) TimerEvent: {}
+[29.240714] (-) TimerEvent: {}
+[29.341157] (-) TimerEvent: {}
+[29.441600] (-) TimerEvent: {}
+[29.542063] (-) TimerEvent: {}
+[29.642501] (-) TimerEvent: {}
+[29.743142] (-) TimerEvent: {}
+[29.843587] (-) TimerEvent: {}
+[29.944014] (-) TimerEvent: {}
+[30.044474] (-) TimerEvent: {}
+[30.144916] (-) TimerEvent: {}
+[30.169024] (usb_cam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam_node.so\x1b[0m\n'}
+[30.245280] (-) TimerEvent: {}
+[30.345634] (-) TimerEvent: {}
+[30.446318] (-) TimerEvent: {}
+[30.546907] (-) TimerEvent: {}
+[30.647795] (-) TimerEvent: {}
+[30.748267] (-) TimerEvent: {}
+[30.848775] (-) TimerEvent: {}
+[30.949241] (-) TimerEvent: {}
+[31.049685] (-) TimerEvent: {}
+[31.121712] (usb_cam) StdoutLine: {'line': b'[100%] Built target usb_cam_node\n'}
+[31.141632] (usb_cam) CommandEnded: {'returncode': 0}
+[31.143316] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'install'}
+[31.149850] (-) TimerEvent: {}
+[31.156496] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam'], 'cwd': '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'andrewkc'), ('WARP_HONOR_PS1', '0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/andrewkc'), ('OLDPWD', '/home/andrewkc/Projects/dl-project/r2_ws/src'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'pop'), ('TERM_PROGRAM_VERSION', 'v0.2024.11.19.08.02.stable_03'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('WARP_USE_SSH_WRAPPER', '1'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '3806'), ('FNM_ARCH', 'x64'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '3965'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '506468'), ('_CE_M', ''), ('CONDA_CHANGEPS1', 'false'), ('FNM_LOGLEVEL', 'info'), ('FNM_VERSION_FILE_STRATEGY', 'local'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andrewkc'), ('JOURNAL_STREAM', '9:27803'), ('_', '/usr/bin/colcon'), ('FNM_NODE_DIST_MIRROR', 'https://nodejs.org/dist'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('USERNAME', 'andrewkc'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.console-ninja/.bin:/run/user/1000/fnm_multishells/506788_1733502668004/bin:/home/andrewkc/.local/share/fnm:/home/andrewkc/miniconda3/condabin:/home/andrewkc/miniconda3/bin:/home/andrewkc/.local/bin:/usr/local/cuda/bin:/home/andrewkc/.cargo/bin:/home/andrewkc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin'), ('INVOCATION_ID', 'a09862d932f8420699e0cbd51fe7d504'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3942,unix/pop-os:/tmp/.ICE-unix/3942'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERM_PROGRAM', 'WarpTerminal'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=ibus'), ('FNM_DIR', '/home/andrewkc/.local/share/fnm'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/andrewkc/miniconda3/bin/python'), ('FNM_RESOLVE_ENGINES', 'false'), ('XML_CATALOG_FILES', 'file:///home/andrewkc/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'pop'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/andrewkc/Projects/dl-project/r2_ws/build/usb_cam'), ('FNM_MULTISHELL_PATH', '/run/user/1000/fnm_multishells/506788_1733502668004'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/andrewkc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/andrewkc/miniconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('FNM_COREPACK_ENABLED', 'false'), ('CONDA_PREFIX', '/home/andrewkc/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[31.174243] (usb_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.174577] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/environment/library_path.sh\n'}
+[31.174881] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv\n'}
+[31.175053] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe\n'}
+[31.175449] (usb_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""\n'}
+[31.175716] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/lib/usb_cam/show_image.py\n'}
+[31.176013] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/lib/libusb_cam.so\n'}
+[31.177067] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/lib/libusb_cam_node.so\n'}
+[31.183302] (usb_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/lib/libusb_cam_node.so" to ""\n'}
+[31.183661] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include\n'}
+[31.184057] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam\n'}
+[31.184314] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/conversions.hpp\n'}
+[31.184550] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/usb_cam.hpp\n'}
+[31.184738] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/constants.hpp\n'}
+[31.184965] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/utils.hpp\n'}
+[31.185176] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/formats\n'}
+[31.185375] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp\n'}
+[31.185526] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp\n'}
+[31.185729] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp\n'}
+[31.185898] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/formats/mono.hpp\n'}
+[31.186046] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/formats/m420.hpp\n'}
+[31.186243] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/formats/utils.hpp\n'}
+[31.186433] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp\n'}
+[31.186615] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp\n'}
+[31.186810] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp\n'}
+[31.187002] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp\n'}
+[31.187184] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/lib/libusb_cam_node.so\n'}
+[31.187363] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/launch\n'}
+[31.187538] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/launch/camera_config.py\n'}
+[31.187714] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py\n'}
+[31.187927] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/launch/__init__.py\n'}
+[31.188120] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/config\n'}
+[31.188300] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml\n'}
+[31.188476] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/config/params_1.yaml\n'}
+[31.188656] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/config/params_2.yaml\n'}
+[31.188881] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam\n'}
+[31.189064] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam\n'}
+[31.189259] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh\n'}
+[31.189408] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv\n'}
+[31.189558] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/environment/path.sh\n'}
+[31.189728] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/environment/path.dsv\n'}
+[31.189929] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/local_setup.bash\n'}
+[31.190079] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/local_setup.sh\n'}
+[31.190234] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/local_setup.zsh\n'}
+[31.190385] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/local_setup.dsv\n'}
+[31.190535] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/package.dsv\n'}
+[31.190781] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam\n'}
+[31.190979] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam\n'}
+[31.191128] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[31.191281] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[31.191473] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[31.191629] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake\n'}
+[31.191871] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake\n'}
+[31.192032] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/andrewkc/Projects/dl-project/r2_ws/install/usb_cam/share/usb_cam/package.xml\n'}
+[31.195083] (usb_cam) CommandEnded: {'returncode': 0}
+[31.221181] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 0}
+[31.222206] (-) EventReactorShutdown: {}

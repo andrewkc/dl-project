@@ -28,7 +28,7 @@ class Turtlebot3Obstacle(Node):
         
         self.velocity = 0.05
         
-        self.move.linear.x = self.velocity
+        #self.move.linear.x = self.velocity
 
     def callback(self, msg):
         self.get_logger().info(f'Front Range: {msg.ranges[0]}')
@@ -42,6 +42,8 @@ class Turtlebot3Obstacle(Node):
         if msg.ranges[0] < 0.425:
             # Retroceder
             self.move.linear.x = 0.0
+        else:
+            self.move.linear.x = self.velocity
 
 def main(args=None):
     rclpy.init(args=args)

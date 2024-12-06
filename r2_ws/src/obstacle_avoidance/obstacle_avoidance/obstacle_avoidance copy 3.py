@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 
-import base64
+import os
 import cv2
+import base64
 from itertools import chain
-import pprint
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, ReliabilityPolicy
 from sensor_msgs.msg import LaserScan
 from geometry_msgs.msg import Twist
+from datetime import datetime
 
 
 def encode_image(image):
@@ -37,7 +38,6 @@ class Turtlebot3Obstacle(Node):
 
         # Objeto Twist para el movimiento del robot
         self.move = Twist()
-
         self.velocity = 0.15
 
         # -1 for left, 1 for right
@@ -45,6 +45,11 @@ class Turtlebot3Obstacle(Node):
 
         # Inicialización de la cámara
         self.cap = cv2.VideoCapture(0)  # Usa la cámara predeterminada
+
+        # Directorio para guardar las imágenes
+        self.image_directory = "captured_images"
+        if not os.path.exists(self.image_directory):
+            os.makedirs(self.image_directory)
 
     def callback(self, msg):
         self.get_logger().info(f"Front Range: {msg.ranges[0]}")
@@ -87,8 +92,15 @@ class Turtlebot3Obstacle(Node):
         # Capturar imagen de la cámara
         ret, frame = self.cap.read()
         if ret:
-            encoded_image = encode_image(frame)
-            self.get_logger().info(f"Captured and encoded image of size: {len(encoded_image)}")
+            # Guardar la imagen en un archivo
+            self.save_image(frame)
+
+    def save_image(self, frame):
+        """Guarda una imagen en un archivo en el directorio especificado."""
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+        file_path = os.path.join(self.image_directory, f"image_{timestamp}.jpg")
+        cv2.imwrite(file_path, frame)
+        self.get_logger().info(f"Image saved: {file_path}")
 
     def turn(self, angular_speed, direction):
         self.move.linear.x = 0.0
